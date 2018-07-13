@@ -12,7 +12,7 @@
 .homepage {
   position: relative;
   width: 100%;
-  margin: 200px auto;
+  margin: 20% 0;
   text-align: center;
   background-color: rgba(0,0,0,.5);
 }
@@ -29,8 +29,10 @@
 
 .homepage a {
   display: inline-block;
-  width: 90px;
+  width: 70px;
   margin-bottom: 30px;
+  opacity: 1;
+  margin: 15px
 }
 
 .homepage img {
@@ -161,7 +163,6 @@ iframe {
   border: 0;
   height: 300px;
   width: 100%;
-  max-width: 500px;
   margin: 10px 0
 }
 
