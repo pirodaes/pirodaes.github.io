@@ -1,0 +1,28 @@
+<title>{{site.title}}</title>
+<meta name="description" content="{{site.description}}">
+<meta name="keywords" content="Léonie, Leonie, Leonie Aonzo, digital painting, Léonie Aonzo, Aonzo, Krita, Blender, portfolio">
+<meta name="robots" content="noodp"/>
+<meta name="author" content="Léonie Aonzo">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/gallery.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" >
+
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"/>
+  <meta property="og:description" content="{% if page.info %}{{ page.info | escape }}{% endif %}">
+  <meta property="og:site_name" content="Léonie Aonzo's personal website"/>
+  <meta property="og:type" content="blog"/>
+{% if page.url contains "gallery" %}
+  {% assign sorted = (site.gallery | sort: 'date') | reverse %}
+  <meta property="og:image" content="{{site.baseurl}}/img/gallery/{{ sorted[0].image }}" />
+{% endif %}
+{% if page.facebook-img %}
+  <meta property="og:image" content="{{site.baseurl}}/img/{{ page.facebook-img }}" />
+{% endif %}
+  <meta name="google-site-verification" content="0WJGKdQwMPC1-4ZQkuGfoGAGB3uKpIC7OEGDdAFsm-A" />

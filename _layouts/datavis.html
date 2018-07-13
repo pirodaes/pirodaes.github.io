@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leonie Aonzo: visual blog, portfolio, thoughts</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/datavis.css" | prepend: site.baseurl }}">
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="{{ "/js/datavis.js" | prepend: site.baseurl }}"></script>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" >
+
+    <meta property="og:image" content="{% if page.post-header %}/img/posts/{{ page.post-header }} | prepend: site.baseurl {% else %} /favicon.ico | prepend: site.baseurl{% endif %}"/>
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"/>
+    <meta property="og:site_name" content="Léonie Aonzo's personal website"/>
+    <meta property="og:type" content="blog"/>
+
+    <meta name="google-site-verification" content="0WJGKdQwMPC1-4ZQkuGfoGAGB3uKpIC7OEGDdAFsm-A" />
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    {% if page.post-header %} <img class="post-header" src="{{ site.baseurl }}/img/posts/{{ page.post-header }}" /> {% endif %}
+
+    <div class="datavis-wrapper">
+      <div class="post-content">
+        {{ content }}
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
+
+.datavis-wrapper {
+  background-color: #2a2a2a;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+.text {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 70%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.caption, .text ul li {
+  width: 50%;
+  font-size: 16px;
+}
+
+.datavis-wrapper h1, .datavis-wrapper h2 {
+  color: #ff2b2a;
+}
+
+#barChart, #bubbleChart{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+}
+
+svg {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#bubbleSvg, #barSvg{
+  display: block;
+  margin: 0 auto;
+}
+
+.datavis-wrapper a {
+  text-decoration: none;
+  color: #ff2b2a;
+}

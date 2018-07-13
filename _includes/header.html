@@ -1,0 +1,33 @@
+<div class="site-title">
+  <a href="{{ site.baseurl }}/">
+    <h2>Léonie Aonzo</h2>
+  </a>
+</div>
+
+<header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/bio.html" {% if page.url contains "bio" %} class="active" {% endif %} ><img src='{{ site.baseurl }}/img/bio.png'>Bio</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/gallery.html" {% if page.url contains "gallery" or page.url contains "update" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/gallery.png'>Gallery</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/projects.html" {% if page.url contains "projects" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/projects.png'>Projects</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/portfolio.html" {% if page.url contains "portfolio" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/portfolio.png'>Portfolio</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/blog.html" {% if page.url contains "blog" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/blog.png'>Blog</a>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
+  {% if page.description %}
+  <h3 class="page-description">{{ page.description }}</h3>
+  {% endif %}

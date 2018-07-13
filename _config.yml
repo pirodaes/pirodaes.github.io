@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Léonie Aonzo
+description: Welcome to Léonie Aonzo's personal website! Here you can find all my works, from drawings to videos, from coding projects to videogames... enjoy your stay!
+email: pirodaes@gmail.com
+
+
+-baseurl: 
+-url: "https://leonieaonzo.com"
+github_username:  pyrodaes
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+#collections
+collections:
+  gallery:

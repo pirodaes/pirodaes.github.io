@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Portfolio"
+description: "Here you can find my CV and different portfolios, containing my best works grouped by typology."
+videos:
+  - title: "Urbino's First Pastry Shop"
+    id: pDMfoWjIM1I
+    date: "20/02/2016"
+    description: "A documentary about Leonardo Cartolari and his shop in Urbino, Italy."
+  - title: "Life Echoes"
+    id: f6nMeIlxIUE
+    date: "22/02/2016"
+    description: "A Videoart and Sound Design project on the passage of time."
+  - title: "Some Kind of Nature - Kynetic Typography"
+    id: 9IWBuDBsD8s
+    date: "09/04/2017"
+    description: "First exploration of After Effects"
+  - title: "White"
+    id: cXDMH6C_olc
+    date: "01/04/2017"
+    description: "One minute one color"
+  - title: "Somewhere Else"
+    id: PCPyiK2gtaY
+    date: "07/07/2017"
+    description: "An animation on the theme 'Necessary Utopias'."
+document:
+  - title: "CV"
+    description: "This document provides a summary of my education, experience and skills."
+    link: pdf/cv-leonie-aonzo.pdf
+---
+
+{% for document in page.document %}
+  <h1>{{document.title}}</h1>
+  <p>{{document.description}}</br>
+    Select <a href="{{site.baseurl}}/{{document.link}}">this link</a> to view it.
+  </p>
+{% endfor %}
+
+<h1>Portfolio</h1>
+<p>Temporarily, you can find the very best of my works <a href="https://www.artstation.com/leonieaonzo">on this ArtStation profile</a>.
+I'm currently working on pdf versions of specific portfolios, coming soon!</p>
+
+<h1>Videos</h1>
+{% for video in page.videos %}
+  <div class="video">
+    <h2>{{video.title}}</h2>
+    <p class="date">{{ video.date | date: '%B %d, %Y' }}</p>
+    <p>{{video.description}}</p>
+    <iframe src="//www.youtube.com/embed/{{ video.id }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+{% endfor %}

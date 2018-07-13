@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Blog"
+description: "I love to write on the most divergent topics. </br> Here you can find insights, tales and behind the scenes."
+---
+<ul class="post-list">
+  {% for post in site.categories.blog-post %}
+  <li>
+    <a class="post-link" href="{{ site.baseurl }}{{post.url}}">
+      <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/img/posts/{{ post.post-header }}')"/></div>
+      <div class="post-intro">
+        <h2>
+          {{ post.title}}
+        </h2>
+        <p class="date">
+          {{ post.date | date: '%B %d, %Y' }}
+        </p>
+        <p class="list-info">
+          {{ post.info }}
+        </p>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

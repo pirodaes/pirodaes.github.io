@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-headline">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="date"> {{ page.date | date: '%B %d, %Y' }} </p>
+    <p class="info">
+      {{ page.info }}
+    </p>
+  </div>
+
+  <div class="post-content">
+      {% if page.content contains "eng" %}
+        <input class="eng" type="radio" checked="checked" value="eng" name="language">
+        <label for="eng">ENG</label>
+        <input class="ita" type="radio" value="ita" name="language">
+        <label for="ita">ITA</label>
+      {% endif %}
+    {{ content }}
+  </div>
+
+</article>
