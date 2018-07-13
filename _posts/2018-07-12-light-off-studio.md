@@ -23,17 +23,16 @@ Prima di passare oltre, vorrei ringraziarli per la bella collaborazione! E ricor
 <h2 class="text-ita">Il logo per il team</h2>
 <h2 class="text-eng">A logo for the team</h2>
 
+<img class="post-img-side" src="{{ site.baseurl }}/img/posts/2018-07-12-1.png" />
+
 <section class="text-eng">
-The team is formed by Simone Gatto, Pietro Mingione, Roberto Benetta & Davide Camuffo. Its name is meant to evoke the feeling of suspense that arises right before a movie begins. </br>
-Here you can see their new logo:
+The team is formed by Simone Gatto, Pietro Mingione, Roberto Benetta & Davide Camuffo. Its name is meant to evoke the feeling of suspense that arises right before a movie begins.
 </section>
 
 <section class="text-ita">
-Il team è composto da Simone Gatto, Pietro Mingione, Roberto Benetta & Davide Camuffo. Il suo nome è ispirato alla sensazione di sospensione che precede l'inizio di un film. </br>
-Ecco il loro nuovo logo:
+Il team è composto da Simone Gatto, Pietro Mingione, Roberto Benetta & Davide Camuffo. Il suo nome è ispirato alla sensazione di sospensione che precede l'inizio di un film.
 </section>
 
-<img class="post-img" src="{{ site.baseurl }}/img/posts/2018-07-12-1.png" />
 
 <div class="video">
   <iframe src="//www.youtube.com/embed/35ICfHMDgBA" frameborder="0" allowfullscreen></iframe>
