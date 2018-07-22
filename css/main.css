@@ -213,7 +213,8 @@ h1 {
 h2,h4 {
   font-weight: lighter;
   font-size: 30px;
-  color: #f3c553
+  color: #f3c553;
+  clear: both
 }
 
 .caption h2,.image-info h2,.post-list h2,.site-title h2 {
@@ -268,7 +269,7 @@ h4 {
 .post-img-side {
   width: 40%;
   float: left;
-  margin: 20px 40px 20px 0
+  margin: 20px 10% 20px 0
 }
 
 .date {
@@ -377,11 +378,11 @@ padding: 0;
   .page-wrapper {
       width: 90%
   }
-  
+
   .home-title {
     font-size: 40px;
   }
-  
+
   .homepage {
     margin-top: 40px;
   }
@@ -415,6 +416,6 @@ padding: 0;
     width: 50px;
     margin: 15px 6%;
   }
-  
+
   }
 }
