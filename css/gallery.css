@@ -128,6 +128,14 @@
   line-height: 1;
 }
 
+.image-info p {
+    font-size: 16px;
+  }
+
+.image-info h2 {
+    font-size: 22px;
+  }
+
 .image-info-post {
   position: fixed;
   bottom: 0;
@@ -196,7 +204,7 @@
   }
   
   .image-info p {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: -12px;
   }
   

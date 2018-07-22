@@ -4,24 +4,38 @@ layout: fullscreen
 
 <div class='homepage'>
   <h1 class="home-title">Welcome! </br> I'm Léonie Aonzo</h1>
-    <a href='{{ site.baseurl }}/projects.html' class='projects'>
-      <img src='{{ site.baseurl }}/img/projects.png'>
-      <span class="tooltip">projects</span>
-    </a>
-    <a href='{{ site.baseurl }}/portfolio.html' class='portfolio'>
-      <img src='{{ site.baseurl }}/img/portfolio.png'>
-      <span class="tooltip">portfolio</span>
-    </a>
-    <a href='{{ site.baseurl }}/blog.html' class='blog'>
-      <img src='{{ site.baseurl }}/img/blog.png'>
-      <span class="tooltip">blog</span>
-    </a>
-    <a href='{{ site.baseurl }}/bio.html' class='bio'>
+  <div class="link-container">
+    <a href='{{ site.baseurl }}/bio.html'>
       <img src='{{ site.baseurl }}/img/bio.png'>
-      <span class="tooltip">bio</span>
+      <div class="tooltip">bio</div>
     </a>
-    <a href='{{ site.baseurl }}/gallery.html' class='gallery-link'>
+  </div>
+  <div class="link-container">
+    <a href='{{ site.baseurl }}/gallery.html'>
       <img src='{{ site.baseurl }}/img/gallery.png'>
-      <span class="tooltip">gallery</span>
+      <div class="tooltip">gallery</div>
     </a>
+  </div>
+
+    <div class="link-container">
+      <a href='{{ site.baseurl }}/projects.html'>
+        <img src='{{ site.baseurl }}/img/projects.png'>
+        <div class="tooltip">projects</div>
+      </a>
+    </div>
+
+    <div class="link-container">
+      <a href='{{ site.baseurl }}/portfolio.html'>
+        <img src='{{ site.baseurl }}/img/portfolio.png'>
+        <div class="tooltip">portfolio</div>
+      </a>
+    </div>
+
+    <div class="link-container">
+      <a href='{{ site.baseurl }}/blog.html'>
+        <img src='{{ site.baseurl }}/img/blog.png'>
+        <div class="tooltip">blog</div>
+      </a>
+    </div>
+
 </div>

@@ -13,6 +13,7 @@
   position: relative;
   width: 100%;
   margin: 200px auto;
+  padding-bottom: 20px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
 }
@@ -28,26 +29,31 @@
 }
 
 .homepage a {
-  display: inline-block;
-  width: 80px;
-  margin: 30px 15px;
   opacity: 1;
+}
+
+.link-container {
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  margin: 0 15px;
 }
 
 .homepage img {
   display: block;
-  width: 100%
+  width: 60px;
+  margin: 0 auto
 }
 
 .tooltip {
   visibility: hidden;
-  width: 90px;
+  width: 100%;
   font-size: 25px;
   text-align: center;
   z-index: 1;
   font-weight: 500;
   color: white;
-  margin-top: 20px
+  margin-top: 10px
 }
 
 .homepage a:hover .tooltip {
@@ -371,9 +377,17 @@ padding: 0;
   .page-wrapper {
       width: 90%
   }
+  
+  .home-title {
+    font-size: 40px;
+  }
+  
+  .homepage {
+    margin-top: 40px;
+  }
 
   .homepage a {
-    width: 70px;
+    width: 50px;
     margin: 15px 4%;
   }
 
@@ -383,7 +397,7 @@ padding: 0;
 
   }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
 
   nav ul img {
     width: 40px;
@@ -397,5 +411,10 @@ padding: 0;
     width: 100%;
   }
 
+  .homepage a {
+    width: 50px;
+    margin: 15px 6%;
+  }
+  
   }
 }
