@@ -82,7 +82,7 @@
 /* The popup's content */
 .gallery {
   text-align: center;
-  height: 80%;
+  height: 81%;
   width: 90%;
   margin: 0 5%;
   position: fixed;
@@ -121,19 +121,27 @@
 .image-info {
   position: fixed;
   bottom: 0;
-  left: 10%;
-  height: 18%;
-  width: 80%;
+  left: 5%;
+  height: 17%;
+  width: 90%;
   word-wrap: break-word;
   line-height: 1;
 }
 
 .image-info p {
-    font-size: 16px;
+  font-size: 18px;
+  font-family: 'Barlow Condensed',sans-serif;
   }
+
+.image-info .date {
+  font-size: 15px;
+  font-family: 'Zilla Slab',serif;
+  margin: -11px;
+}
 
 .image-info h2 {
     font-size: 22px;
+    margin-top: 7px;
   }
 
 .image-info-post {

@@ -15,7 +15,7 @@
   margin: 200px auto;
   padding-bottom: 20px;
   text-align: center;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.7);
 }
 
 .home-title {
@@ -134,7 +134,7 @@ nav a img:focus,nav a img:hover, .homepage a img:hover {
 
 body {
   background-color: #1e1e1e;
-  background-image: url(../img/swirl_pattern2.png);
+  background-image: url(../img/pattern_sayagata.png);
   background-attachment: fixed;
   font-size: 22px;
   color: #fff;
@@ -142,6 +142,11 @@ body {
   margin: 0;
   font-family: 'Zilla Slab',serif;
   font-weight: 300
+}
+
+body p {
+  opacity: 0.8;
+  font-size: 19px
 }
 
 .page-wrapper {
@@ -275,13 +280,15 @@ h4 {
   font-style: italic;
   margin-top: -20px;
   opacity: .6;
-  font-size: 18px
+  font-size: 18px;
+  color: #fff;
 }
 
 .info {
   padding-bottom: 15px;
   color: #f3c553;
-  font-size: 22px
+  margin-top: -7px;
+  font-size: 23px
 }
 
 /*POST-LIST*/
@@ -341,7 +348,7 @@ padding: 0;
   position: relative;
   font-style: italic;
   background-color: rgba(0,0,0,.5);
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   width: 100%
 }
 
@@ -349,24 +356,28 @@ padding: 0;
   margin: 15px
 }
 
+.footer-text {
+  font-size: 15px
+}
+
 .social {
-  padding-top: 30px
+  padding-top: 30px;
+  padding-bottom: 20px
 }
 
 .social img {
-  width: 30px
+  width: 30px;
+  margin: -10px 0
 }
 
 .email {
-  font-style: normal;
-  margin: -10px 0 30px
+  font-style: normal
 }
 
 .copyright,.licence {
   font-style: normal;
   font-size: 16px;
-  float: left;
-  margin-top: 40px
+  float: left
 }
 
 .licence {
