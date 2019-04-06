@@ -1,4 +1,4 @@
----
+d---
 layout: post
 title:  "Mixed technique: a photocopier story"
 date:   11/11/2016

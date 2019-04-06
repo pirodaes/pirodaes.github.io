@@ -2,44 +2,35 @@
 layout: default
 title: "Portfolio"
 description: "Here you can find my CV and different portfolios, containing my best works grouped by typology."
-videos:
-  - title: "Urbino's First Pastry Shop"
-    id: pDMfoWjIM1I
-    date: "20/02/2016"
-    description: "A documentary about Leonardo Cartolari and his shop in Urbino, Italy."
-  - title: "Life Echoes"
-    id: f6nMeIlxIUE
-    date: "22/02/2016"
-    description: "A Videoart and Sound Design project on the passage of time."
-  - title: "Some Kind of Nature - Kynetic Typography"
-    id: 9IWBuDBsD8s
-    date: "09/04/2017"
-    description: "First exploration of After Effects"
-  - title: "White"
-    id: cXDMH6C_olc
-    date: "01/04/2017"
-    description: "One minute one color"
-  - title: "Somewhere Else"
-    id: PCPyiK2gtaY
-    date: "07/07/2017"
-    description: "An animation on the theme 'Necessary Utopias'."
+documents:
+  - title: "Curriculum Vitae"
+    url: "/pdf/cv-leonie-aonzo.pdf"
+    description: "This document provides a summary of my education, experience and skills"
+    image: "cv.jpg"
+  - title: "Illustration Portfolio"
+    url: "/pdf/portfolio-illustration.pdf"
+    description: "Here you can find my illustration portfolio. If you need a print-quality version, please write an e-mail to: leonie.aonzo@gmail.com."
+    image: "illustration.jpg"
+  - title: "Concept Art Portfolio"
+    url: "https://www.artstation.com/leonieaonzo"
+    description: "You can find the very best of my works my this ArtStation profile"
+    image: "conceptart.jpg"
 ---
-<h1>Portfolio</h1>
-<p>Temporarily, you can find the very best of my works <a href="https://www.artstation.com/leonieaonzo">on this ArtStation profile</a>.
-I'm currently working on pdf versions of specific portfolios, coming soon!</p>
 
-<h1>CV</h1>
-<img src="{{site.baseurl}}/img/cv.jpg" class="post-img-side">
-<p> <br/> This document provides a summary of my education, experience and skills.<br/>
-  Select <a href="{{site.baseurl}}/pdf/cv-leonie-aonzo.pdf">this link</a> to view the PDF.
-</p>
-
-<h1>Videos</h1>
-{% for video in page.videos %}
-  <div class="video">
-    <h2>{{video.title}}</h2>
-    <p class="date">{{ video.date | date: '%B %d, %Y' }}</p>
-    <p>{{video.description}}</p>
-    <iframe src="//www.youtube.com/embed/{{ video.id }}" frameborder="0" allowfullscreen></iframe>
-  </div>
-{% endfor %}
+<ul class="post-list">
+  {% for document in page.documents %}
+  <li>
+    <a class="post-link" href="{{site.baseurl}}{{document.url}}">
+      <div class="post-thumb" style="background-image: url('{{site.baseurl}}/pdf/{{document.image}}')"></div>
+      <div class="post-intro">
+        <h2>
+          {{ document.title}}
+        </h2>
+        <p class="list-info">
+          {{ document.description }}
+        </p>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
