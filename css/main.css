@@ -136,7 +136,7 @@ body {
   background-color: #1e1e1e;
   background-image: url(../img/pattern_sayagata.png);
   background-attachment: fixed;
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
   position: relative;
   margin: 0;
@@ -146,7 +146,6 @@ body {
 
 body p {
   opacity: 0.8;
-  font-size: 19px
 }
 
 .page-wrapper {
