@@ -14,16 +14,6 @@ gallery:
   - 6.jpg
   - 7.jpg
   - 8.jpg
-  - 9.jpg
-  - 10.jpg
-  - 11.jpg
-  - 12.jpg
-  - 13.jpg
-  - 14.jpg
-  - 15.jpg
-  - 16.jpg
-  - 17.jpg
-  - 18.jpg
 ---
 
 <section class="text-eng">
@@ -46,6 +36,9 @@ During the short arctic summer the fox cubs chase each other and play, under the
 <section class="text-ita">
 Nella breve estate artica i cuccioli di volpe si rincorrono e giocano, sotto lo sguardo attento dei genitori. Quando la prima neve ammanta la tundra, portata dai freddi venti del nord, un grande viaggio ha inizio: "Come la Neve" è la storia di una piccola volpe artica e del primo inverno della sua vita, di una traversata in terre vaste e silenziose, fino al nuovo sorgere della primavera.
 </section>
+
+<h2 class="text-ita">Ecco alcune delle illustrazioni nel libro...</h2>
+<h2 class="text-eng">Here are some of the illustrations inside the book...</h2>
 
 <div class="thumb-grid">
   {% for image in page.gallery %}
@@ -106,9 +99,13 @@ Nella vastità di queste terre estreme, ancora selvagge, risuona con forza il ri
 <h2 class="text-eng">The published work</h2>
 
 <section class="text-eng">
-The finished book will be published in these very days. Stay tuned for updates!
+The finished book will soon be available in Genova's book shops and <a href="https://www.amazon.it/dp/8895369211">on Amazon.</a>
 </section>
 
 <section class="text-ita">
-Il lancio del libro avverrà proprio in questi giorni. State all'erta per gli aggiornamenti!
+Il libro sarà presto disponibile nelle librerie a Genova e <a href="https://www.amazon.it/dp/8895369211">su Amazon.</a>
 </section>
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/K9i3OG59Q-s" frameborder="0" allowfullscreen></iframe>
+</div>
