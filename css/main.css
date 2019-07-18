@@ -62,7 +62,7 @@
 
 .homepage-portfolio {  
   width: 60%;
-  margin: auto
+  margin: auto;
 }
 
 .homepage-portfolio-entry{
@@ -328,14 +328,6 @@ background-size: cover;
 background-position: 98% 50%;
 }
 
-.post-list a:hover .post-intro {
-margin-left: 2px;
-}
-
-.post-list a:hover .post-thumb {
-margin-left: 32px;
-}
-
 .post-intro {
 margin: 50px 0;
 transition: margin-left .1s;
@@ -393,9 +385,20 @@ padding: 0;
   float: right
 }
 
+@media (min-width: 800px) {
+  
+  .post-list a:hover .post-intro {
+    margin-left: 2px;
+  }
+
+  .post-list a:hover .post-thumb {
+    margin-left: 32px;
+  }
+}
+
 @media (max-width:800px) {
   .page-wrapper {
-      width: 90%
+    width: 90%
   }
 
   .home-title {
@@ -406,16 +409,40 @@ padding: 0;
     margin-top: 40px;
   }
 
-  .homepage a {
-    width: 50px;
-    margin: 15px 4%;
+  .homepage img {
+    width: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .link-container {
+    margin: 10px 4%;
   }
 
   .tooltip {
     visibility: visible;
   }
-
+  
+  .homepage-portfolio {
+    width: 100%;
   }
+  
+  .homepage-portfolio-entry {
+    text-align: center;
+		width:100%;
+  }
+  
+  .homepage-portfolio h2 {
+    margin: -30px;
+    clear: both;
+    display: block;
+  }
+  
+  .homepage-portfolio .post-thumb {
+    float: none;
+    margin: 20px auto 0;
+  }
+
+}
 
 @media (max-width: 600px) {
 
@@ -431,10 +458,4 @@ padding: 0;
     width: 100%;
   }
 
-  .homepage a {
-    width: 50px;
-    margin: 15px 6%;
-  }
-
-  }
 }
