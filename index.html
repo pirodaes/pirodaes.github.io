@@ -3,7 +3,8 @@ layout: fullscreen
 ---
 
 <div class='homepage'>
-  <h1 class="home-title">Welcome! </br> I'm Léonie Aonzo</h1>
+
+  <h1 class="home-title">Welcome! <br/> I'm Léonie Aonzo</h1>
   <div class="link-container">
     <a href='{{ site.baseurl }}/bio.html'>
       <img src='{{ site.baseurl }}/img/bio.png'>
@@ -27,7 +28,7 @@ layout: fullscreen
     <div class="link-container">
       <a href='{{ site.baseurl }}/portfolio.html'>
         <img src='{{ site.baseurl }}/img/portfolio.png'>
-        <div class="tooltip">portfolio</div>
+        <div class="tooltip">contacts</div>
       </a>
     </div>
 
@@ -38,4 +39,30 @@ layout: fullscreen
       </a>
     </div>
 
+</div>
+
+<div class="homepage-portfolio">
+  <h1>Direct Links:</h1>
+  <ul class="post-list">
+    <li>
+      <a class="post-link" href="{{ site.baseurl }}/pdf/LeonieAonzo-conceptart-portfolio.pdf">
+        <div class="homepage-portfolio-entry">
+          <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/pdf/conceptart.jpg')"></div>
+          <div class="post-intro">
+            <h2> &#8618; Concept Art Portfolio </h2>
+          </div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a class="post-link" href="{{ site.baseurl }}/pdf/portfolio-illustration.pdf">
+        <div class="homepage-portfolio-entry">
+          <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/pdf/illustration.jpg')"></div>
+          <div class="post-intro">
+            <h2> &#8618; Illustration Portfolio </h2>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
 </div>
