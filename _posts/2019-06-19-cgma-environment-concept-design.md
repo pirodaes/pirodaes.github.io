@@ -57,3 +57,5 @@ Environment Concept Design focuses on the visual development of an imaginary env
 I kept working on the final piece for this course and in the end I decided to split the painting into two. This way the colors may have lost some of their appeal, but narrative and mood are more coherent.
 <img class="post-img" src="{{ site.baseurl }}/img/posts/2019-06-19-1.jpg" />
 <img class="post-img" src="{{ site.baseurl }}/img/posts/2019-06-19-2.jpg" />
+
+I wrote an in-depth <a href="https://www.cgmasteracademy.com/courses/92-environment-concept-design">article</a> for The Rookies blog on the story of these paintings. they told me it's fun to read... don't miss it!
