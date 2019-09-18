@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <article class="post">
 
@@ -22,16 +21,8 @@ comments: true
     {{ content }}
   </div>
 
-{% if page.comments %}
-  <div id="disqus_thread"></div>
-  <script>
-  var d = document, s = d.createElement('script');
-  s.src = 'https://leonie-aonzo.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
-
+  <div class="post-headline">
+    <h1 class="post-title">Leave a comment!</h1>
+    <script async src="https://comments.app/js/widget.js?2" data-comments-app-website="N_1tbTvS" data-limit="5" data-color="CA9C0E" data-outlined="1"></script>
+  </div>
 </article>
