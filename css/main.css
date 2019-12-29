@@ -60,7 +60,7 @@
   visibility: visible
 }
 
-.homepage-portfolio {  
+.homepage-portfolio {
   width: 60%;
   margin: auto;
 }
@@ -228,6 +228,7 @@ h2,h4 {
   font-weight: lighter;
   font-size: 30px;
   color: #f3c553;
+  clear: both;
 }
 
 .caption h2,.image-info h2,.post-list h2,.site-title h2 {
@@ -386,7 +387,7 @@ padding: 0;
 }
 
 @media (min-width: 800px) {
-  
+
   .post-list a:hover .post-intro {
     margin-left: 2px;
   }
@@ -413,7 +414,7 @@ padding: 0;
     width: 40px;
     margin-bottom: -8px;
   }
-  
+
   .link-container {
     margin: 10px 4%;
   }
@@ -421,22 +422,22 @@ padding: 0;
   .tooltip {
     visibility: visible;
   }
-  
+
   .homepage-portfolio {
     width: 100%;
   }
-  
+
   .homepage-portfolio-entry {
     text-align: center;
 		width:100%;
   }
-  
+
   .homepage-portfolio h2 {
     margin: -30px;
     clear: both;
     display: block;
   }
-  
+
   .homepage-portfolio .post-thumb {
     float: none;
     margin: 20px auto 0;
