@@ -309,6 +309,10 @@ padding: 0;
 clear: both;
 }
 
+.post-list-title {
+  clear: none;
+}
+
 .list-info {
 font-size: 20px;
 margin-top: -10px;
