@@ -277,11 +277,13 @@ h4 {
 }
 
 .post-img {
-  margin: 20px 0
+  margin: 20px 0;    
+  max-width: 1500px;
 }
 
 .post-img-side {
   width: 40%;
+  max-width: 600px;
   float: left;
   margin: 20px 10% 20px 0
 }
