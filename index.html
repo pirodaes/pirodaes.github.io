@@ -1,68 +1,23 @@
 ---
-layout: fullscreen
+layout: default
+title: "Projects"
+description: "Welcome!"
 ---
-
-<div class='homepage'>
-
-  <h1 class="home-title">Welcome! <br/> I'm Léonie Aonzo</h1>
-  <div class="link-container">
-    <a href='{{ site.baseurl }}/bio.html'>
-      <img src='{{ site.baseurl }}/img/bio.png'>
-      <div class="tooltip">bio</div>
+<p> Here's a collection of everything I do. If you're looking for my conceprt art portfolio, please refer to <a href="https://www.artstation.com/leonieaonzo" title="ArtStation page" >ArtStation </a>!</p>
+<ul class="post-list">
+  {% for post in site.categories.project %}
+  <li>
+    <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+      <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/img/posts/{{ post.post-header }}')"></div>
+      <div class="post-intro">
+        <h2 class="post-list-title">
+          {{ post.title}}
+        </h2>
+        <p class="date">
+          {{ post.date | date: '%B %d, %Y' }}
+        </p>
+      </div>
     </a>
-  </div>
-  <div class="link-container">
-    <a href='{{ site.baseurl }}/gallery.html'>
-      <img src='{{ site.baseurl }}/img/gallery.png'>
-      <div class="tooltip">gallery</div>
-    </a>
-  </div>
-
-    <div class="link-container">
-      <a href='{{ site.baseurl }}/projects.html'>
-        <img src='{{ site.baseurl }}/img/projects.png'>
-        <div class="tooltip">projects</div>
-      </a>
-    </div>
-
-    <div class="link-container">
-      <a href='{{ site.baseurl }}/portfolio.html'>
-        <img src='{{ site.baseurl }}/img/portfolio.png'>
-        <div class="tooltip">contacts</div>
-      </a>
-    </div>
-
-    <div class="link-container">
-      <a href='{{ site.baseurl }}/blog.html'>
-        <img src='{{ site.baseurl }}/img/blog.png'>
-        <div class="tooltip">blog</div>
-      </a>
-    </div>
-
-</div>
-
-<div class="homepage-portfolio">
-  <h1>Direct Links:</h1>
-  <ul class="post-list">
-    <li>
-      <a class="post-link" href="{{ site.baseurl }}/pdf/LeonieAonzo-conceptart-portfolio.pdf" target="_blank">
-        <div class="homepage-portfolio-entry">
-          <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/pdf/conceptart.jpg')"></div>
-          <div class="post-intro">
-            <h2> &#8618; Concept Art Portfolio </h2>
-          </div>
-          </div>
-      </a>
-    </li>
-    <li>
-      <a class="post-link" href="{{ site.baseurl }}/pdf/portfolio-illustration.pdf" target="_blank">
-        <div class="homepage-portfolio-entry">
-          <div class="post-thumb" style="background-image: url('{{ site.baseurl }}/pdf/illustration.jpg')"></div>
-          <div class="post-intro">
-            <h2> &#8618; Illustration Portfolio </h2>
-          </div>
-        </div>
-      </a>
-    </li>
-  </ul>
-</div>
+  </li>
+  {% endfor %}
+</ul>
