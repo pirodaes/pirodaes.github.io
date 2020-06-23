@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<article class="post">
+<div class="post-headline">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="date"> {{ page.date | date: '%B %d, %Y' }} </p>
+  <p class="info">
+    {{ page.info }}
+  </p>
+</div>
 
-  <div class="post-headline">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="date"> {{ page.date | date: '%B %d, %Y' }} </p>
-    <p class="info">
-      {{ page.info }}
-    </p>
-  </div>
+{% if page.post-header %} <img class="post-header" src="{{ site.baseurl }}/img/posts/{{ page.post-header }}" /> {% endif %}
+
+<article class="post">
 
   <div class="post-content">
       {% if page.content contains "text-eng" %}

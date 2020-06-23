@@ -1,24 +1,26 @@
 
 <header>
+  <div class="header-content">
 
-  <div >
-      <img class="site-title" src="{{ site.baseurl }}/img/firma.png">
+    <div >
+        <img class="site-title" src="{{ site.baseurl }}/img/firma.png">
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}/about.html" {% if page.url contains "about" %} class="active" {% endif %} >About</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/index.html" {% if page.url contains "index" %} class="active" {% endif %}>Projects</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/blog.html" {% if page.url contains "blog" %} class="active" {% endif %}>Blog</a>
+        </li>
+      </ul>
+    </nav>
+
   </div>
-
-  <nav>
-    <ul>
-      <li>
-        <a href="{{ site.baseurl }}/about.html" {% if page.url contains "about" %} class="active" {% endif %} ><img src='{{ site.baseurl }}/img/about.png'>About</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/index.html" {% if page.url contains "index" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/projects.png'>Projects</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/blog.html" {% if page.url contains "blog" %} class="active" {% endif %}><img src='{{ site.baseurl }}/img/blog.png'>Blog</a>
-      </li>
-    </ul>
-  </nav>
-
 </header>
 
   {% if page.description %}

@@ -19,17 +19,14 @@ body {
 
 body p {
   font-size: 18px;
-  line-height: 26px;  
+  line-height: 29px;  
 }
 
 article p {
-  margin-bottom: 30px
+  margin-bottom: 30px; 
+  color: rgba(255,255,255,.8);
 }
 
-.page-wrapper {
-  width: 60%;
-  margin: auto
-}
 
 a {
   text-decoration: none;
@@ -82,14 +79,21 @@ label {
 
 .site-title {
   float: left;
-  margin: -30px 0;
-  width: 150px
+  width: 100px
 }
 
 header {
-  margin: 60px 0 40px  0;
-  padding: 0px 5%;
+  margin: 0px 0 60px  0;
+  padding:  10px 0;
   background-color: rgba(0,0,0,.7);
+}
+
+.header-content, .post-headline {  
+  width: 60%;
+  margin: auto;
+}
+
+nav {
 }
 
 nav a {
@@ -196,14 +200,29 @@ h4 {
 
 /*POST*/
 
+.post {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
 .post-title {
   background-color: transparent;
-  padding: 12px 0 0;
+  margin: 0;
+  padding: 0
 }
 
 .post-headline {
-  background-color: rgba(0,0,0,.7);
-  padding-left: 20px;
+  padding: 0 20px;
+  margin:  90px auto 20px 
+}
+
+.post p, .post h2 {
+  padding: 0 20px;
+}
+
+.post-header {
+  margin: 20px 0;
 }
 
 .post-header,.post-img {
@@ -211,7 +230,9 @@ h4 {
 }
 
 .post-img {
-  margin: 20px 0;
+  margin: 20px 0;  
+  margin-left: -5%;
+  width: 110%;
   max-width: 1500px;
 }
 
@@ -219,21 +240,18 @@ h4 {
   width: 40%;
   max-width: 600px;
   float: left;
-  margin: 20px 10% 20px 0
+  margin: 0 30px 0 0
 }
 
 .date {
   font-style: italic;
-  margin-top: -20px;
   opacity: .6;
   font-size: 18px;
   color: #fff;
 }
 
 .info {
-  padding-bottom: 15px;
   color: #f3c553;
-  margin-top: -7px;
   font-size: 23px
 }
 
@@ -319,8 +337,8 @@ padding: 0;
 
 
 @media (max-width:1000px) {
-  .page-wrapper {
-    width: 90%
+  .post, .header-content, .post-headline {
+    width: 80%
   }
 
   .home-title {
@@ -367,6 +385,10 @@ padding: 0;
 }
 
 @media (max-width: 600px) {
+  
+  .post, .header-content, .post-headline {
+    width: 92%;
+  }
   
   nav ul img {
     width: 40px;
