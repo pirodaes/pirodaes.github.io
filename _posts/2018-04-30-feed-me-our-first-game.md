@@ -64,18 +64,21 @@ Abbiamo ben presto incontrato il primo ostacolo derivante dalla nostra scelta: b
 
 <section class="text-eng">
 The first day ended with discouragement: vague game design, sound design and graphics not progressing, even getting the UI right seemed like an invincible obstacle (even if, actually, in our experience UIs are always been one of the toughest obstacles). The next day, finally, our work got off to a good start. But each software malfunctioning, each bug, each doubt about the concept made us loose hope to finish in time (it's inevitable to have all your trusted tools break in the time of need).
-<br/><br/>
+
+
 The third day the assets had multiplied (all thanks to the speedpainting practice) and SFX were starting to appear. Nonetheless, we still had to implement everything, and, unfortunately, it was monday. Relying too much on Davide for programming is what prevented me from contributing enough to the game, while he was attending university. In every indie team it's of great importance that all members, even artists, have a rough idea of how code works. Expecially during a jam, in which the greatest work usually is programming. Had I known how to insert the assets on my own, we would have ended up with a much more complete game. Instead, during our rush to 4:30 AM, we didn't make it time to add a lot of already completed material.
-<br/><br/>
+
 
 And there it was, our game, exposed to the public without any playtesting. Too scared at the thought of some game-breaking bug, we abandoned it as it was and went to sleep.
 </section>
 
 <section class="text-ita">
 La prima giornata è terminata nello sconforto: game design vago, grafica e sound design fermi, problemi già solo nella creazione dell'interfaccia (anche se in effetti nel nostro caso le interfacce si sono sempre dimostrate uno degli ostacoli peggiori). Il giorno dopo il lavoro è finalmente partito, anche se per ogni malfunzionamento dei software, per ogni blocco nel codice, per ogni incertezza sul concept tornavamo a disperare (è inevitabile che tutti i fidati strumenti si rompano proprio nel momento del bisogno).
-<br/><br/>
+
+
 Il terzo giorno gli asset si erano moltiplicati (devo ringraziare l'esercizio degli speedpainting!) e già iniziavano a prendere forma i SFX. Tuttavia, restava da implementare tutto e, sfortunatamente, era un lunedì. Dipendere così tanto da Davide per la gestione del codice mi ha impedito di portare avanti il lavoro mentre lui era a lezione. In ogni team indipendente è fondamentale che tutti abbiano un'infarinatura di programmazione, anche gli artisti. Soprattutto in una jam, in cui il peso maggiore grava sulla programmazione. Se avessi saputo inserire gli asset in modo indipendente, avremmo avuto un risultato finale nettamente più completo. Invece, nella corsa durata fino alle 4:30 AM, non siamo riusciti ad inserire buona parte del materiale già pronto.
-<br/><br/>
+
+
 Alla fine ecco il nostro gioco, esposto al pubblico prima di qualsiasi playtesting. Troppo spaventati dall'idea di incontrare qualche game-breaking bug, l'abbiamo abbandonato al suo destino e siamo andati a dormire.
 </section>
 
@@ -86,21 +89,27 @@ Alla fine ecco il nostro gioco, esposto al pubblico prima di qualsiasi playtesti
 
 <section class="text-eng">
 The game doesn't break! Some production errors aside, we verified, incredulous, that it was possible to play it from start to end without it crashing. Even the parameters we decided without calibrating them didn't completely sabotage the gameplay.
-<br/><br/>
+
+
 The first concept included different evolutions for the monster, other characters, naming the monster and multiple endings. All things we had to give up to because of time. We tried our chance, giving the player an illusory freedom, which we didn't manage to actually offer. And it worked! Only a few players, for example, noticed that a game over didn't exist.
-<br/><br/>
+
+
 While we were still only able to see the faults of our work, the other participants started to enlight some of its qualities. Not only did we finish in time: the game was also being received positively! We couldn't believe that someone, somewhere in the world, was exploring the little world we created. And yet, slowly, the number of players kept growing.
-<br/><br/>
+
+
 If you, too, want to try Feed Me, we published it for free <a href="https://pyrodaes.itch.io/feed-me">on itch.io</a>. There you'll find the executables for Windows, OSX e Linux. Meanwhile, here's the trailer and some screenshot!
 </section>
 
 <section class="text-ita">
 Il gioco non si rompe! Nonostante alcuni errori di realizzazione, abbiamo constatato increduli che era possibile giocarlo dall'inizio alla fine senza crash. Perfino i parametri stabiliti a occhio sembravano non sabotare del tutto il gameplay.
-<br/><br/>
+
+
 L'idea iniziale prevedeva evoluzioni diverse di un mostro componibile, altri personaggi, la possibilità di dare un nome al mostro e finali multipli. A tutto questo abbiamo dovuto rinunciare. Abbiamo giocato il tutto per tutto, dando all'utente l'illusione di una libertà che non abbiamo fatto in tempo a fornirgli. Ed ha funzionato! Sono stati in pochi, ad esempio, a scoprire che non esisteva un game over.
-<br/><br/>
+
+
 Mentre ancora vedevamo solo i difetti del nostro lavoro, sono stati gli altri partecipanti a metterne per primi in luce i pregi. Non solo avevamo creato il nostro primo gioco: stava anche piacendo! Non riuscivamo a credere che qualcuno da qualche parte nel mondo stesse esplorando un piccolo mondo creato da noi. Pian piano, invece, il numero di giocatori saliva.
-<br/><br/>
+
+
 Se anche voi volete provare Feed Me, l'abbiamo distribuito gratuitamente <a href="https://pyrodaes.itch.io/feed-me">su itch.io</a>. Troverete eseguibili per Windows, OSX e Linux. Nel frattempo, ecco il trailer e qualche screenshot!
 </section>
 
@@ -119,18 +128,22 @@ Se anche voi volete provare Feed Me, l'abbiamo distribuito gratuitamente <a href
 
 <section class="text-eng">
 Jams truly are important opportunities to grow. They help breaking many restraints, like that of perfectionism, the create an urgency and they give a rough idea of all the developement steps: from concept to PR. This is invaluable when you're dealing with bigger projets.
-<br/><br/>
+
+
 However, it's important to get the timing right. Throwing yourself in a jam too unprepared does not bring any result, rather, it can be damaging, <a href="http://leonieaonzo.com/blog-post/2017/01/25/GGJ.html"> the way the Global Game Jam has been for us</a>.
 And, by the way, we wouldn't be ready for it now either. The Ludum Dare, with its already formed teams, the more benevolent deadlines and its work at a safe distance, was the baptism we needed.
-<br/><br/>
+
+
 Now, we have our first game.
 </section>
 
 <section class="text-ita">
 Le jam sanno davvero fornire preziose occasioni di crescita. Superano freni come quello del perfezionismo, creano un'urgenza e danno una prima infarinatura di tutte le fasi di produzione: dal concept alle pubbliche relazioni. Questo è fondamentale quando ci si ritrova a prendere le misure con progetti più ampi.
-<br/><br/>
+
+
 Tuttavia, è importante trovare il momento giusto. Catapultarsi in una jam troppo impreparati non ne fa cogliere i frutti, anzi può essere dannoso,<a href="http://leonieaonzo.com/blog-post/2017/01/25/GGJ.html">come è stato per noi il Global Game Jam</a>. E, per inciso, non saremmo pronti neppure adesso. Il Ludum Dare, con i suoi gruppi già formati, le scadenze più generose e il lavoro da casa è stato il battesimo di cui avevamo bisogno.
-<br/><br/>
+
+
 E adesso, abbiamo il nostro primo gioco.
 </section>
 
@@ -139,7 +152,8 @@ E adesso, abbiamo il nostro primo gioco.
 
 <section class="text-eng">
 In the 28 days following the submission, the developers tried and voted each other's games. Among 3048 entries (2018 of which belonging to the jam category), this is how we ranked:
-<br/><br/>
+
+
 Overall: 220th<br/>
 Fun: 537th<br/>
 Innovation: 626th<br/>
@@ -147,13 +161,16 @@ Theme: 658th<br/>
 Graphics: 100th<br/>
 Audio: 138th<br/>
 Humor: 699th<br/>
-Mood: 41st<br/><br/>d
+Mood: 41st
+
+
 We are very satisfied!
 </section>
 
 <section class="text-ita">
 Nei 28 giorni che hanno seguito la consegna, gli sviluppatori hanno provato e votato i giochi gli uni degli altri. All'interno dei 3048 progetti caricati sul sito (di cui 2018 erano jam), ecco la nostra posizione:
-<br/><br/>
+
+
 Generale: 220°<br/>
 Divertimento: 537°<br/>
 Innovazione: 626°<br/>
@@ -161,6 +178,8 @@ Tema: 658°<br/>
 Grafica: 100°<br/>
 Audio: 138°<br/>
 Humor: 699°<br/>
-Atmosfera: 41°<br/><br/>
+Atmosfera: 41°
+
+
 Possiamo ritenerci decisamente soddisfatti!
 </section>

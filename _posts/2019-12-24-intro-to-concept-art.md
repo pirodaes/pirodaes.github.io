@@ -25,9 +25,11 @@ gallery:
 ---
 
 During the Intro to Concept Art class, Boris Andreev guided us through our first complex project. We worked together in small teams: we chose a story and visually developed its characters and environments, trying to keep a coherent style.
-<br> <br>
+
+
 It was challenging, and it often felt like we were jumping into things a bit ahead of time. But tight deadlines and continuous feedback from fellow students helped me stay on track. Boris didn't want to guide us too much especially in the important decisions. This made me feel a little lost sometimes, but I realized later how useful it was. He is a great teacher, his feedback was always on spot and - most important to me - he knew how to motivate and encourage.
-<br> <br>
+
+
 In the end, I was kind of satisfied with my work: it's a good starting point. And having had this bird's eye view on the entire concept art process, from sketches to rendering, helped me realize soon several flaws in my process. I'm sure this will prove very useful in the next months!
 
 <div class="thumb-grid">

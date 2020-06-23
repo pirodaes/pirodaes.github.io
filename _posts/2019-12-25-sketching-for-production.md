@@ -35,11 +35,13 @@ gallery:
 ---
 
 Christian Robert de Massy was our teacher and I loved him. But this class made me cry blood.
-<br> <br>
+
+
 I was completely ignorant in perspective, so every exercise, from cast shadows to reflections, was a huge struggle. It shows through the pretty low quality of my work. I had to start from scratch, again and again, almost each assignment. But I learned a lot and now I finally have a base knowledge that will allow me to improve.
 <br>
 And maybe someday, when I will start a new drawing, I will even remember to start from defining a horizon line!
-<br> <br>
+
+
 We did many other small exercises, but here I will only put the most relevant ones in order to understand the progression of the class (even if I'm really not satisfied with most of them).
 
 <div class="thumb-grid">

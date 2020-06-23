@@ -25,7 +25,7 @@
   margin-bottom: 3px;
   background-size: cover;
   background-color: white;
-  background-position: 50% 50%;
+  background-position: 98% 50%;
   position: relative;
 }
 
@@ -206,20 +206,20 @@
     div h2 {
       font-size: 23px;
     }
-  
+
   .image-info h2 {
     font-size: 25px;
   }
-  
+
   .image-info p {
     font-size: 16px;
     margin-top: -12px;
   }
-  
+
   .image-info .date {
     font-size: 0;
   }
-  
+
 
 @media (max-width: 500px) {
 

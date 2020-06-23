@@ -92,7 +92,8 @@ Here are all the collages found inside the book:
   <h2>Somewhere Else: the animation</h2>
   <p> The final result doesn't quite satisfy me, I think its caotic conception ends up showing through... but still, it's a finished project. <br/>
 Video and audio are composed by me, with the contribution of Mitch Martinez's free stock footage and the sounds from the freesound.org community.
-<br/> <br/>
+
+
 Video made with After Effects <br/>
 Audio made with Reaper</p>
   <iframe src="//www.youtube.com/embed/PCPyiK2gtaY" frameborder="0" allowfullscreen></iframe>

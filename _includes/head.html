@@ -24,14 +24,14 @@
   <meta property="og:site_name" content="Léonie Aonzo's personal website"/>
   <meta property="og:type" content="blog"/>
 
-  {% if page.url contains "gallery" %}
-    {% assign sorted = (site.gallery | sort: 'date') | reverse %}
-    <meta property="og:image" content="{{site.baseurl}}/img/gallery/{{ sorted[0].image }}" />
-    <meta name="twitter:image" content="{{site.baseurl}}/img/gallery/{{ sorted[0].image }}">
-  {% endif %}
-  {% if page.facebook-img %}
-    <meta property="og:image" content="{{site.baseurl}}/img/{{ page.facebook-img }}" />
-    <meta name="twitter:image" content="{{site.baseurl}}/img/{{ page.facebook-img }}" />
-  {% endif %}
+  {% if page.url contains "blog" %}
+    {% assign sorted = (site.categories.blog-post | sort: 'date') | reverse %}
+    <meta property="og:image" content="{{site.baseurl}}/img/posts/{{ sorted[0].post-header }}" />
+    <meta name="twitter:image" content="{{site.baseurl}}/img/posts/{{ sorted[0].post-header }}">
+  {% else if page.url contains "index" %}
+      {% assign sorted = (site.categories.project | sort: 'date') | reverse %}
+      <meta property="og:image" content="{{site.baseurl}}/img/posts/{{ sorted[0].post-header }}" />
+      <meta name="twitter:image" content="{{site.baseurl}}/img/posts/{{ sorted[0].post-header }}">
+    {% endif %}
 
   <meta name="google-site-verification" content="0WJGKdQwMPC1-4ZQkuGfoGAGB3uKpIC7OEGDdAFsm-A" />

@@ -24,7 +24,8 @@ info: "First project with d3.js"
   <p class="caption">This bar chart visualizes the number of landings for each year between 1950 and 2013, when the recordings were more likely to be accurate. A growth in the number of collected data is however noticeable up to the 70s.
     <br>
     The year 2013 shows partial information, since it was still being collected at the time of release.
-  <br><br>
+
+
   On user interaction, for each year are displayed the total number of landings and the six heaviest meteorites, with their id.
   </p>
 </div>

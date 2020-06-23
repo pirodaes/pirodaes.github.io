@@ -54,7 +54,9 @@ The Great Journey is a five-illustration story without words: it narrates the fi
 {% endfor %}
 
 Initially, I wanted to use a very materic paint in order to represent the snow, and add a sense of depth by using tracing paper. <br>
-I first thought of oil paint, but I didn't have enough time to let different layers dry. I tried to add collage, oil pastels, pencils to the mix, but it just didn't work out. I realized that in order to achieve what I had in mind I should have practiced those techniques a lot more. <br> <br>
+I first thought of oil paint, but I didn't have enough time to let different layers dry. I tried to add collage, oil pastels, pencils to the mix, but it just didn't work out. I realized that in order to achieve what I had in mind I should have practiced those techniques a lot more.
+
+
 So, a bit discouraged, I turned to watercolors. <br>
 <img class="post-img-side" src="{{ site.baseurl }}/img/posts/2018-10-06-1.jpg" />
 <img class="post-img-side" src="{{ site.baseurl }}/img/posts/2018-10-06-2.jpg" />

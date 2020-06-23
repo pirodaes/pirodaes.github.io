@@ -1,93 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:200|Zilla+Slab:300,300i,500');
 
 
-/*HEADER*/
-
-
-nav ul,nav ul li {
-  display: inline-block
-}
-
-nav ul {
-  padding: 0;
-  margin: 0 0 20px
-}
-
-nav ul li {
-  list-style: none;
-  margin: 0 15px
-}
-
-.site-title {
-  font-family: 'Barlow Condensed',sans-serif;
-  float: left;
-  font-family: 'Zilla Slab',serif;
-  font-weight: 500;
-  text-transform: none;
-  font-size: 40px;
-  color: #1e1e1e;
-}
-
-header {
-  margin: 10px 0 0;
-  padding: 20px 5%;
-  background-color: #f3c553;
-  height: 150px;
-  margin: 0;
-}
-
-header nav {
-  float: right;
-}
-
-nav ul {
-  text-align: center
-}
-
-nav a {
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #1e1e1e;
-}
-
-nav a img {
-  width: 60px;
-  display: block;
-  margin: 15px auto
-}
-
-@keyframes rotation {
-  from {transform: rotate(0deg)}
-  to {transform: rotate(360deg)}
-}
-
-nav a img:focus,nav a img:hover, .homepage a img:hover {
-  animation: rotation;
-  animation-duration: 1s;
-}
-
-.page-description {
-  margin: 30px auto 0;
-  width: 70%;
-  text-align: center
-}
 
 /*GENERAL*/
 
 body {
   background-color: #1e1e1e;
   background-image: url(../img/pattern_sayagata.png);
+ // background-image: url(../img/swirl_pattern.png);
   background-attachment: fixed;
-  font-size: 20px;
   color: #fff;
   position: relative;
   margin: 0;
   font-family: 'Zilla Slab',serif;
-  font-weight: 300
+  font-weight: 300;
+  text-shadow: 1px 1px 2px #1e1e1e;
 }
 
 body p {
-  opacity: 0.8;
+  font-size: 18px;
+  line-height: 26px;  
+}
+
+article p {
+  margin-bottom: 30px
 }
 
 .page-wrapper {
@@ -101,9 +37,8 @@ a {
   color: #f3c553;
 }
 
-.active,a:hover {
-  opacity: 1;
-  color: #fff
+a:hover {
+  color: #fff;
 }
 
 iframe {
@@ -140,6 +75,77 @@ label {
 
 .eng:checked + label {
   color: #f3c553;
+}
+
+
+/*HEADER*/
+
+.site-title {
+  float: left;
+  margin: -30px 0;
+  width: 150px
+}
+
+header {
+  margin: 60px 0 40px  0;
+  padding: 0px 5%;
+  background-color: rgba(0,0,0,.7);
+}
+
+nav a {
+  font-size: 20px;
+  color: white
+}
+
+.active, header a:hover {
+  color: #f3c553;
+}
+
+nav ul,nav ul li {
+  display: inline-block
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav li{
+  margin: 0px 10px;  
+  padding: 10px;
+  width: 60px;  
+  text-align: center
+}
+
+header nav img {
+  width: 45px;
+  display: block;
+  margin: 5px auto
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(360deg)}
+}
+
+nav a img:focus,nav a img:hover, .homepage a img:hover {
+  animation: rotation;
+  animation-duration: 1s;
+}
+
+.page-description {
+  margin: 30px auto 0;
+  width: 70%;
+  text-align: center
 }
 
 /*TITLES*/
@@ -181,10 +187,6 @@ h4 {
 }
 
 /*GALLERY*/
-
-.thumb-link {
-  opacity: 1;
-}
 
 .thumb-grid {
   overflow: hidden;
@@ -315,18 +317,8 @@ padding: 0;
   float: right
 }
 
-@media (min-width: 800px) {
 
-  .post-list a:hover .post-intro {
-    margin-left: 2px;
-  }
-
-  .post-list a:hover .post-thumb {
-    margin-left: 32px;
-  }
-}
-
-@media (max-width:800px) {
+@media (max-width:1000px) {
   .page-wrapper {
     width: 90%
   }
@@ -375,7 +367,7 @@ padding: 0;
 }
 
 @media (max-width: 600px) {
-
+  
   nav ul img {
     width: 40px;
   }

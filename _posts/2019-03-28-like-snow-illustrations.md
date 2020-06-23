@@ -83,15 +83,15 @@ Nella breve estate artica i cuccioli di volpe si rincorrono e giocano, sotto lo 
 
 <section class="text-eng">
 A nose, two bright eyes: they hop as if they float in the perfect white. In winter, the fur of the arctic fox becomes white as snow: this characteristic was the first to hit me. Their fur, the warmest in the whole animal kingdom, adapts to the surrounding world. So when, in summer, the tundra is inflamed with colors, the animals that inhabit the Arctic areas abandon their thick white fur, just to grow it back a few months later.
-<br/>
-<br/>
+
+
 In the vastness of these extreme and still wild lands, the rhythm of the seasons resonates strongly. And precisely the cyclical nature of life is what "Like Snow" is about. My wish is that this little story of growth will encourage, especially in the little ones, the desire to listen to the wordless voice of nature. Finally, "Like Snow" is a tribute to the great white of the Arctic, to the hard struggle for survival, to the cruelty and the poignant beauty of the world of which we are part.
 </section>
 
 <section class="text-ita">
 Un naso, due occhi vivaci: si muovono a balzelli, e sembrano fluttuare nel bianco perfetto. Ha il candore della neve il manto che caratterizza le volpi artiche durante l’inverno: questa loro caratteristica è stata la prima a colpirmi. La loro pelliccia, la più calda in tutto il regno animale, si adatta al mondo circostante. Così quando, in estate, la tundra s’infiamma di colori, gli animali che abitano le zone artiche abbandonano il loro folto pelo bianco, per poi tornare a ricoprirsene pochi mesi più tardi.
-<br/>
-<br/>
+
+
 Nella vastità di queste terre estreme, ancora selvagge, risuona con forza il ritmo delle stagioni. E proprio il passaggio del tempo e la ciclicità della vita sono ciò che "Come la Neve" racconta. Il mio augurio è che questa piccola storia di crescita sappia incoraggiare, soprattutto nei più piccoli, il desiderio di ascoltare la voce senza parole della natura. È, infine, un omaggio al grande bianco dell’artico, alla dura lotta per la sopravvivenza, alla crudeltà e alla bellezza struggente del mondo di cui siamo parte.
 </section>
 

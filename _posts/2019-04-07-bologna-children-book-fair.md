@@ -19,7 +19,9 @@ gallery:
   - 11.jpg
 ---
 
-Sono da poco tornata dalla mia seconda Bologna Children Book Fair, carica di appunti e di idee da riordinare. Credo sempre più che questa fiera sia un appuntamento imprescindibile per chi ha a che fare con il mondo dell'illustrazione. Sicuramente per me è stata, negli ultimi due anni, un importante punto di svolta. <br/> <br/>
+Sono da poco tornata dalla mia seconda Bologna Children Book Fair, carica di appunti e di idee da riordinare. Credo sempre più che questa fiera sia un appuntamento imprescindibile per chi ha a che fare con il mondo dell'illustrazione. Sicuramente per me è stata, negli ultimi due anni, un importante punto di svolta.
+
+
 Studenti ed esordienti sono un po' fuori posto in un contesto professionale come quello della Fiera. Autori ed agenti corrono da uno stand all'altro, a ritmo serrato stringono mani, stringono accordi. Gli editori hanno poco tempo (e spesso poca voglia) di dedicare la loro attenzione ai portfolio di illustratori inesperti. A meno di non sfoderare il famigerato trolley carico di pubblicazioni, è difficile ritagliarsi uno spazio. Per questo, la Children Book Fair può diventare un'esperienza frustrante.
 
 <img class="post-img" src="{{ site.baseurl }}/img/posts/2019-04-07-1.png" />
