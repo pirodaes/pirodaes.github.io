@@ -5,15 +5,23 @@ description: "Welcome!"
 ---
 {% assign sorted = (site.categories.project | sort: 'date') | reverse %}
 
-<div class="thumb-grid">
-  {% for element in sorted %}
-      <a class= "thumb-link" href="{{ site.baseurl }}{{ element.url }}">
-        <div class="thumb" style="background-image: url('{{ site.baseurl }}/img/posts/{{ element.post-header }}');">
-          <div class="caption">
-            <h2>{{ element.title }}</h2>
-            <p class="date"> {{ element.date | date: '%B %d, %Y'}} </p>
+
+
+  {% assign postsByYear = site.categories.project | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+  {% for year in postsByYear %}
+    <h2 class="year-list">{{ year.name }}</h2>
+    <div class="project-grid">
+      {% for project in year.items %}
+        <a class= "project-link" href="{{ site.baseurl }}{{ project.url }}">
+          <div class="project-thumb" style="background-image: url('{{ site.baseurl }}/img/posts/{{ project.post-header }}');">
+            <div class="thumb-highlight">
+            </div>
           </div>
-        </div>
-      </a>
-  {% endfor %}
-</div>
+          <div class="project-caption">
+            <h2>{{ project.title }}</h2>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    {% endfor %}

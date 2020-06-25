@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:200|Zilla+Slab:300,300i,500');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap');
 /*GENERAL*/
 
 body {
@@ -24,7 +21,7 @@ body p {
 
 article p {
   margin-bottom: 30px; 
-  color: rgba(255,255,255,.8);
+  color: rgba(255,255,255,.9);
 }
 
 
@@ -40,9 +37,10 @@ a:hover {
 
 iframe {
   border: 0;
-  width: 100%;
   height: 500px;
-  margin: 10px 0
+  margin: 10px 0;
+  margin-left: -9%;
+  width: 118%;
 }
 
 input {
@@ -88,12 +86,9 @@ header {
   background-color: rgba(0,0,0,.7);
 }
 
-.header-content, .post-headline {  
-  width: 60%;
+.header-content, .year-list{  
+  width: 70%;
   margin: auto;
-}
-
-nav {
 }
 
 nav a {
@@ -152,10 +147,11 @@ nav a img:focus,nav a img:hover, .homepage a img:hover {
   text-align: center
 }
 
+
 /*TITLES*/
 
 h1 {
-  font-family: 'Barlow Condensed',sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 35px;
   clear: both;
@@ -165,9 +161,10 @@ h1 {
   padding: 10px 20px
 }
 
-h2,h4 {
+h2,h4 {  
+  font-family: 'Oswald', sans-serif;
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 25px;
   color: #f3c553;
   clear: both;
 }
@@ -190,20 +187,71 @@ h4 {
   margin: 25px 0 0
 }
 
-/*GALLERY*/
 
-.thumb-grid {
-  overflow: hidden;
-  margin-top: 40px;
-  clear: both;
+/*PROJECT THUMBS*/
+
+
+
+.project-grid {  
+  display: flex;
+  justify-content: space-evenly; 
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.project-link {
+  width: 400px;
+  margin: 20px 0;
+  background-color: rgba(0,0,0,.6);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f3c553;
+}
+
+.project-thumb {
+  height: 110px;
+  padding: 0;  
+  background-position: 98% 50%;
+  
+}
+
+.thumb-highlight{
+  background-color: #f3c553;
+  height: 100%;
+  opacity: 0
+}
+
+.project-caption {
+  height: 80px;
+  padding: 10px;
+}
+
+.project-caption p, .project-caption h2 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.project-link:hover {
+  border-color: white
+}
+
+.project-link:hover > .project-thumb .thumb-highlight {
+  opacity: 0.5
+}
+
 
 /*POST*/
 
-.post {
+ .post-headline, .post {  
   width: 60%;
   margin: auto;
+  max-width: 1000px
+}
+
+.post {
   background-color: rgba(30, 30, 30, 0.8);
+  padding: 10px 0;
 }
 
 .post-title {
@@ -214,10 +262,11 @@ h4 {
 
 .post-headline {
   padding: 0 20px;
-  margin:  90px auto 20px 
+  margin:  90px auto 20px;
+  text-align: center;
 }
 
-.post p, .post h2 {
+.post p, .post h2, section {
   padding: 0 20px;
 }
 
@@ -231,16 +280,16 @@ h4 {
 
 .post-img {
   margin: 20px 0;  
-  margin-left: -5%;
-  width: 110%;
+  margin-left: -9%;
+  width: 118%;
   max-width: 1500px;
 }
 
 .post-img-side {
   width: 40%;
   max-width: 600px;
-  float: left;
-  margin: 0 30px 0 0
+  float: right;
+  margin: 0 20px 0 0
 }
 
 .date {
@@ -254,6 +303,7 @@ h4 {
   color: #f3c553;
   font-size: 23px
 }
+
 
 /*POST-LIST*/
 
@@ -287,6 +337,7 @@ transition: margin-left .1s;
 margin-left: 180px;
 padding: 0;
 }
+
 
 /*FOOTER*/
 
@@ -336,9 +387,11 @@ padding: 0;
 }
 
 
+/* MEDIA QUERY */
+
 @media (max-width:1000px) {
-  .post, .header-content, .post-headline {
-    width: 80%
+  .post, .header-content, .post-headline, .year-list {
+    width: 90%
   }
 
   .home-title {
@@ -386,8 +439,13 @@ padding: 0;
 
 @media (max-width: 600px) {
   
-  .post, .header-content, .post-headline {
-    width: 92%;
+  .site-title {
+  }
+  
+  header nav ul li {    
+  display: block;
+    text-align: right;
+    padding: 5px
   }
   
   nav ul img {

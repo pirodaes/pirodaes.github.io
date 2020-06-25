@@ -41,7 +41,6 @@
 }
 
 .caption h2 {
-  font-family: 'Barlow Condensed',sans-serif;
   font-weight: lighter;
 }
 
@@ -130,7 +129,6 @@
 
 .image-info p {
   font-size: 18px;
-  font-family: 'Barlow Condensed',sans-serif;
   }
 
 .image-info .date {
