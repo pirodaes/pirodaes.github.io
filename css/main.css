@@ -174,10 +174,10 @@ h2,h4 {
 }
 
 h3 {
-  font-family: 'Zilla Slab',serif;
   font-weight: 500;
   text-transform: none;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  line-height: 28px;
 }
 
 h4 {
@@ -328,20 +328,32 @@ clear: both;
 }
 
 .post-thumb {
-float: left;
-width: 100px;
-height: 100px;
-border-radius: 100px;
-margin: 0px 30px;
-display: inline-block;
-background-size: cover;
-background-position: 98% 50%;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 0px 30px;
+  display: inline-block;
+  background-size: cover;
+  background-position: 98% 50%;
+  border-width: : 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff)
+}
+
+.post-link:hover > .post-thumb {
+  border-color: #f3c553;
 }
 
 .post-intro {
-margin: 50px 0;
-transition: margin-left .1s;
+  margin: 30px 0;
+  min-height: 130px;
 }
+
+.post-intro:hover > h2, .post-intro:hover > p {
+  color: #f3c553;
+} 
 
 .post-intro h2, .post-intro p, .post-list .date {
 margin-left: 180px;
@@ -411,10 +423,14 @@ padding: 0;
 
 @media (max-width: 600px) {
 
+ .site-title {
+    width: 75px
+  }
+  
   header nav ul li {
   display: block;
     text-align: right;
-    padding: 5px
+    padding: 10px
   }
 
   nav ul img {
