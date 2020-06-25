@@ -1,12 +1,27 @@
 ---
 layout: default
 title: "Projects"
-description: "Welcome!"
 ---
 {% assign sorted = (site.categories.project | sort: 'date') | reverse %}
 
+<div class="presentation">
+  <p class="presentation-text">
+    Welcome! <br>
+    My name is Léonie Aonzo, I love color stains on my hands and telling stories through images. <br>
+    I am an illustrator and aspiring concept artist born in Genoa, Italy.<br/>
+    I am currently attending <a href="https://diploma.synstudio.ca/">Syn Studio's</a> concept art diploma program in Montreal.
+  </p>
+  <p class="presentation-links">
+    Concept art portfolio: <a href="https://www.artstation.com/leonieaonzo">www.artstation.com/leonieaonzo</a> <br>
+    Resume: <a href="{site.baseurl}/pdf/cv-leonie-aonzo.pdf">cv-leonie-aonzo.pdf</a><br>
+    Contact: leonie.aonzo@gmail.com
+  </p>
+</div>
 
 
+<h1>Projects</h1>
+
+<div class="projects-wrapper">
   {% assign postsByYear = site.categories.project | group_by_exp:"post", "post.date | date: '%Y'" %}
 
   {% for year in postsByYear %}
@@ -25,3 +40,4 @@ description: "Welcome!"
         {% endfor %}
       </div>
     {% endfor %}
+</div>

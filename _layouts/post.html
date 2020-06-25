@@ -9,9 +9,10 @@ layout: default
   </p>
 </div>
 
-{% if page.post-header %} <img class="post-header" src="{{ site.baseurl }}/img/posts/{{ page.post-header }}" /> {% endif %}
-
 <article class="post">
+
+
+  {% if page.post-header %} <img class="post-header" src="{{ site.baseurl }}/img/posts/{{ page.post-header }}" /> {% endif %}
 
   <div class="post-content">
       {% if page.content contains "text-eng" %}

@@ -12,7 +12,7 @@
           <a href="{{ site.baseurl }}/about.html" {% if page.url contains "about" %} class="active" {% endif %} >About</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}/index.html" {% if page.url contains "index" %} class="active" {% endif %}>Projects</a>
+          <a href="{{ site.baseurl }}/index.html" {% if page.url contains "blog" %}{% else %} class="active" {% endif %}>Projects</a>
         </li>
         <li>
           <a href="{{ site.baseurl }}/blog.html" {% if page.url contains "blog" %} class="active" {% endif %}>Blog</a>

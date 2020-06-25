@@ -17,11 +17,21 @@
 }
 
 /* The gallery thumbnails */
+
+.thumb-grid {
+  display: block;
+  text-align: center;
+  margin: auto 0;
+}
+
+.thumb-link {
+  border: none
+}
+
 .thumb {
   width: 24%;
   height: 180px;
-  float: left;
-  margin-right: 3px;
+  display: inline-block; 
   margin-bottom: 3px;
   background-size: cover;
   background-color: white;
@@ -42,6 +52,7 @@
 
 .caption h2 {
   font-weight: lighter;
+  font-size: 20px;
 }
 
 .caption p, .caption h2 {
@@ -127,29 +138,19 @@
   line-height: 1;
 }
 
-.image-info p {
-  font-size: 18px;
-  }
-
-.image-info .date {
-  font-size: 15px;
-  font-family: 'Zilla Slab',serif;
-  margin: -11px;
-}
-
-.image-info h2 {
-    font-size: 22px;
-    margin-top: 7px;
-  }
-
 .image-info-post {
   position: fixed;
   bottom: 0;
   left: 10%;
-  height: 13%;
+  height: 12%;
   width: 80%;
   word-wrap: break-word;
   line-height: 1;
+}
+
+.image-info-post h2 {  
+  font-size: 20px;
+  color: #fff
 }
 
 /* The buttons */
@@ -201,21 +202,6 @@
       position: initial;
     }
 
-    div h2 {
-      font-size: 23px;
-    }
-
-  .image-info h2 {
-    font-size: 25px;
-  }
-
-  .image-info p {
-    font-size: 16px;
-    margin-top: -12px;
-  }
-
-  .image-info .date {
-    font-size: 0;
   }
 
 
