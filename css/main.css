@@ -1,481 +1,442 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap');
+
 /*GENERAL*/
 
 body {
-  background-color: #1e1e1e;
-  background-image: url(../img/pattern_sayagata.png);
- // background-image: url(../img/swirl_pattern.png);
-  background-attachment: fixed;
-  color: #fff;
-  position: relative;
-  margin: 0;
-  font-family: 'Zilla Slab',serif;
-  font-weight: 300;
-  text-shadow: 1px 1px 2px #1e1e1e;
+    background-color: #1e1e1e;
+    background-image: url(../img/pattern_sayagata.png);
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    margin: 0;
+    font-family: 'Zilla Slab',serif;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px #1e1e1e;
 }
-
 body p {
-  font-size: 18px;
-  line-height: 28px;
+    font-size: 18px;
+    line-height: 28px;
 }
-
- .post-headline, .post, .post-list {
-  width: 60%;
-  margin: auto;
-  max-width: 1000px
+.post-headline, .post, .post-list {
+    width: 60%;
+    margin: auto;
+    max-width: 1000px
 }
-
 .header-content, .footer-text {
-  width: 70%;
-  margin: auto;
+    width: 70%;
+    margin: auto;
 }
-
 a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #fff;
-  border-style: none none solid ;
-  border-width: 2px;
-  border-color:  #f3c553;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    border-style: none none solid ;
+    border-width: 2px;
+    border-color: #f3c553;
 }
-
 a:hover {
-  color: #f3c553;
+    color: #f3c553;
 }
-
 iframe {
-  border: 0;
-  height: 500px;
-  margin: 10px 0;
-  margin-left: -9%;
-  width: 118%;
+    border: 0;
+    height: 500px;
+    margin: 10px 0;
+    margin-left: -9%;
+    width: 118%;
 }
-
 input {
-  cursor: pointer;
-  margin: 30px 5px;
-  z-index: 10;
-  position: relative;
+    cursor: pointer;
+    margin: 30px 5px;
+    z-index: 10;
+    position: relative;
 }
-
 label {
-  margin: 0 20px 0 -30px;
-  background-color: rgba(0,0,0,.7);
-  padding: 10px 10px 10px 30px;
+    margin: 0 20px 0 -30px;
+    background-color: rgba(0,0,0,.7);
+    padding: 10px 10px 10px 30px;
 }
-
 .ita:checked ~ .text-eng {
-  font-size: 0;
+    font-size: 0;
 }
-
 .ita:checked + label {
-  color: #f3c553;
+    color: #f3c553;
 }
-
 .eng:checked ~ .text-ita {
-  font-size: 0;
+    font-size: 0;
 }
-
 .eng:checked + label {
-  color: #f3c553;
+    color: #f3c553;
 }
 
 
 /*HEADER*/
 
 .site-title {
-  float: left;
-  width: 100px
+    float: left;
+    width: 100px
 }
-
 header {
-  margin: 0px 0 60px  0;
-  padding:  10px 0;
-  background-color: rgba(0,0,0,.7);
+    padding: 10px 0;
+    background-color: rgba(0,0,0,.7);
 }
-
 nav a {
-  color: white
+    color: white;
+    border-width: 0px;
 }
-
 .active, header a:hover {
-  color: #f3c553;
+    color: #f3c553;
 }
-
 nav ul,nav ul li {
-  display: inline-block
+    display: inline-block
 }
-
 nav ul {
-  padding: 0;
-  margin: 0
+    padding: 0;
+    margin: 0
 }
-
 nav ul li {
-  list-style: none;
-  margin: 0
+    list-style: none;
+    margin: 0
 }
-
 header nav {
-  text-align: right;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
-
 header nav li{
-  margin: 0px 10px;
-  padding: 10px;
-  width: 60px;
-  text-align: center
+    margin: 0px 10px;
+    padding: 10px;
+    width: 60px;
+    text-align: center
 }
-
 header nav img {
-  width: 45px;
-  display: block;
-  margin: 5px auto
+    width: 45px;
+    display: block;
+    margin: 5px auto
 }
-
 @keyframes rotation {
-  from {transform: rotate(0deg)}
-  to {transform: rotate(360deg)}
+    from {
+       transform: rotate(0deg)
+   }
+    to {
+       transform: rotate(360deg)
+   }
 }
-
 nav a img:focus,nav a img:hover, .homepage a img:hover {
-  animation: rotation;
-  animation-duration: 1s;
+    animation: rotation;
+    animation-duration: 1s;
 }
-
 .page-description {
-  margin: 30px auto 0;
-  width: 70%;
-  text-align: center
+    margin: 30px auto 0;
+    width: 70%;
+    text-align: center
 }
 
 
 /*TITLES*/
 
 h1 {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  clear: both;
-  margin: 40px 0 30px;
-  font-weight: 300;
-  padding: 10px 20px
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    clear: both;
+    margin: 40px 0 30px;
+    font-weight: 300;
+    padding: 10px 20px
 }
-
 h2,h4 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
-  color: #f3c553;
-  clear: both;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color: #f3c553;
+    clear: both;
 }
-
 .caption h2,.image-info h2,.post-list h2,.site-title h2 {
-  color: #fff;
+    color: #fff;
 }
-
 h3 {
-  font-weight: 500;
-  text-transform: none;
-  padding-bottom: 20px;
-  line-height: 28px;
+    font-weight: 500;
+    text-transform: none;
+    padding-bottom: 20px;
+    line-height: 28px;
 }
-
 h4 {
-  margin: 25px 0 0
+    margin: 25px 0 0
 }
 
 
 /*PROJECT PAGE*/
 
 .presentation {
-  width: 60%;
-  margin: auto;
-  margin-top: 90px;
-  display: flex
+    width: 60%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex
 }
-
 .presentation-links {
-  font-size: 15px;
-  line-height: 25px;
+    font-size: 15px;
+    line-height: 25px;
 }
-
-.presentation-text {  
-}
-
 .avatar {
-  margin: 30px 20px;
-  width: 250px
+    margin: 30px 20px;
+    width: 250px
 }
-
 .avatar img {
-  width: 100%
+    width: 100%
 }
-
-.year-list {  
-  background-color: rgba(30, 30, 30, 0.8);
-  padding: 10px;
+.year-list {
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 10px;
 }
-
 .projects-wrapper {
-  width: 90%;
-  max-width: 1000px;
-  display: block;
-  margin: auto
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto
 }
-
 .project-grid {
-  width: 100%;
-  margin: auto;
-  display: inline-grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-column-gap: 20px;
-  grid-row-gap: 50px;
+    width: 100%;
+    margin: auto;
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
 }
-
 .project-link {
-  background-color: rgba(0,0,0,.6);
-  border-style: solid;
-  border-width: 2px;
-  border-color: #f3c553;
+    background-color: rgba(0,0,0,.6);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f3c553;
 }
-
 .project-thumb {
-  height: 110px;
-  padding: 0;
-  background-position: 98% 50%;
-
+    height: 110px;
+    padding: 0;
+    background-position: 98% 50%;
 }
-
 .thumb-highlight{
-  background-color: #f3c553;
-  height: 100%;
-  opacity: 0
+    background-color: #f3c553;
+    height: 100%;
+    opacity: 0
 }
-
 .project-caption {
-  height: 80px;
-  padding: 10px;
-  display: flex
+    height: 80px;
+    padding: 10px;
+    display: flex
 }
-
 .project-caption h2 {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-  padding: 0;
-  width: 90%
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 90%
 }
-
 .project-type {
-  height: 40px;
+    height: 40px;
 }
-
 .project-type img {
-  width: 35px;
-  margin-top: -2px;
-  margin-right: 10px
+    width: 35px;
+    margin-top: -2px;
+    margin-right: 10px
 }
-
 .project-link:hover {
-  border-color: white
+    border-color: white
 }
-
 .project-link:hover > .project-thumb .thumb-highlight {
-  opacity: 0.5
+    opacity: 0.5
 }
 
 
 /*POST*/
 
-
 .post p {
-  margin-bottom: 30px;
-  color: rgba(255,255,255,.9);
+    margin-bottom: 30px;
+    color: rgba(255,255,255,.9);
 }
-
 .post {
-  background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 5px 0;
 }
-
 .post-headline {
-  padding: 0 20px;
-  margin:  90px auto 40px;
-  text-align: center;
+    padding: 0 20px;
+    margin: 90px auto 40px;
+    text-align: center;
 }
-
 .post p, .post h2, section, .thumb-grid {
-  padding: 0 20px;
+    padding: 0 20px;
 }
-
 .post-header,.post-img {
-  width: 100%
+    width: 100%
 }
-
 .post-img {
-  padding: 20px 0;
-  margin-left: -9%;
-  width: 118%;
-  max-width: 1500px;
+    padding: 20px 0;
+    margin-left: -9%;
+    width: 118%;
+    max-width: 1500px;
 }
-
 .post-img-side {
-  width: 46%;
-  max-width: 600px;
-  margin: 20px 0 20px 40px;
-  float: right;
+    width: 44%;
+    max-width: 600px;
+    margin: 20px ;
+    float: right;
 }
-
 .date {
-  opacity: .6;
-  color: #fff;
-  font-size: 15px
+    opacity: .6;
+    color: #fff;
+    font-size: 15px
 }
-
 .info {
-  color: #f3c553;
-  font-style: italic;
-  font-size: 20px;
+    color: #f3c553;
+    font-style: italic;
+    font-size: 20px;
 }
 
 
 /*POST-LIST*/
 
 .post-list {
-list-style: none;
-padding: 0;
-clear: both;
+    list-style: none;
+    padding: 0;
+    clear: both;
+    margin-top: 90px;
 }
-
 .post-list-title {
-  clear: none;
+    clear: none;
+    margin-bottom: 0
 }
-
 .post-thumb {
-  float: left;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  margin: 0px 30px;
-  display: inline-block;
-  background-size: cover;
-  background-position: 98% 50%;
-  border-width: : 2px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fff)
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0 30px;
+    background-size: cover;
+    background-position: 98% 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff
 }
-
+.post-link {
+    border-width: 0;
+}
 .post-link:hover > .post-thumb {
-  border-color: #f3c553;
+    border-color: #f3c553;
 }
-
 .post-intro {
-  margin: 30px 0;
-  min-height: 130px;
+    margin: 30px 0;
+    min-height: 130px;
 }
-
 .post-intro:hover > h2, .post-intro:hover > p {
-  color: #f3c553;
-} 
-
+    color: #f3c553;
+}
 .post-intro h2, .post-intro p, .post-list .date {
-margin-left: 180px;
-padding: 0;
+    margin-left: 180px;
+    padding: 0;
 }
 
 
 /*FOOTER*/
 
 .footer,.social {
-  text-align: center
+    text-align: center
 }
-
 .footer {
-  margin: 100px 0 0 0;
-  padding-top: 20px;
-  position: relative;
-  background-color: rgba(0,0,0,.7);
-  width: 100%;
-  clear: both;  
+    margin: 100px 0 0 0;
+    padding-top: 20px;
+    position: relative;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    clear: both;
 }
-
 .footer p {
-  font-size: 15px;
-  line-height: 25px;
+    font-size: 15px;
+    line-height: 25px;
 }
-
 .social a {
-  border: none
+    border: none
 }
-
 .social img {
-  width: 30px;
-  margin: 10px 10px 0;
+    width: 30px;
+    margin: 10px 10px 0;
 }
-
 .email {
-  font-style: normal
+    font-style: normal
 }
-
 .copy-licence {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
-
 
 
 /* MEDIA QUERY */
 
-
 @media (max-width:1000px) {
-  .post, .header-content, .post-headline, .post-list, .footer-text, .presentation  {
-    width: 90%
-  }
-
-  .post-header {
-    width: 114%;
-    margin-left: -7%;
-  }
-
-  .link-container {
-    margin: 10px 4%;
-  }
-
-  .post-img, iframe {
-    width: 100%;
-      margin: 0
-  }
-
-
+    .post, .header-content, .post-headline, .post-list, .footer-text, .presentation {
+        width: 90%
+   }
+    .post-header {
+        width: 114%;
+        margin-left: -7%;
+   }
+    .link-container {
+        margin: 10px 4%;
+   }
+    .post-img, iframe {
+        width: 100%;
+        margin: 0
+   }
 }
-
 @media (max-width: 600px) {
-  
-  .avatar {
-    width: 0
-  }
-
- .site-title {
-    width: 75px
-  }
-  
-  header nav ul li {
-  display: block;
-    text-align: right;
-    padding: 10px
-  }
-
-  nav ul img {
-    width: 40px;
-  }
-
-  nav ul li {
-    margin: 0 5px;
-  }
-
-  .post-img-side {
-    width: 100%;
-  }
-
+    .avatar {
+        width: 0
+   }
+    .presentation {
+        margin-top: 30px;
+   }
+    .post-headline, .post-list {
+        margin-top: 30px;
+   }
+    .post-title {
+        margin-bottom: 10px
+   }
+    .post-headline .info {
+        margin-top: 0
+   }
+    .site-title {
+        width: 75px
+   }
+    header nav ul li {
+        display: block;
+        text-align: right;
+        padding: 10px
+   }
+    nav ul img {
+        width: 40px;
+   }
+    nav ul li {
+        margin: 0 5px;
+   }
+    .post-img-side {
+        width: 100%;
+   }
+    .post-thumb {
+        border-radius: 0;
+        width: 100%;
+        height: 80px;
+        float: none;
+        margin: auto;
+        display: block
+   }
+    .post-intro {
+        width: 100%;
+        display: block;
+        margin: 0
+   }
+    .post-list-title {
+        margin: 10px 0 0 0
+   }
+    .post-list .date {
+        margin-top: -2px;
+   }
+    .post-intro h2, .post-intro p, .post-list .date {
+        margin-left: 0;
+   }
 }

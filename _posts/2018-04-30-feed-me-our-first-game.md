@@ -17,8 +17,6 @@ The <a href="https://ldjam.com/">Ludum Dare</a> is an online competition, a jam 
 Il <a href="https://ldjam.com/">Ludum Dare</a> è una competizione online, una jam che consiste nel creare un videogioco in 48 ore (per i singoli) o 72 ore (per i gruppi). Ricorre ogni quattro mesi, e questa quarantunesima edizione è stata la prima cui ho partecipato.
 </section>
 
-<img class="post-img-side" src="{{ site.baseurl }}/img/posts/2018-04-30-01.png" />
-
 <section class="text-eng">
 The first one we joined, actually. There were two of us, in fact: my brother in arms was Davide Cortellucci, whom I've been collaborating with on a bigger game for some time.
 <br/><br/>

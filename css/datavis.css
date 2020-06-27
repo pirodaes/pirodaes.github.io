@@ -7,6 +7,11 @@
   margin-top: 20px;
 }
 
+.datavis-wrapper .post-content {  
+  max-width: 1500px;
+  margin: auto
+}
+
 .text {
   width: 70%;
   margin: auto;

@@ -2,14 +2,14 @@
 layout: post
 title:  "Pure CSS gallery"
 date:   20/11/2016
-categories: blog-post
+categories: project
 post-header: 2016-11-20.png
 info: "What's behind this website's gallery"
 ---
 
 Lately there has been more and more talking about the advantages of pure CSS web design solutions. Why is this?
 
-#### CSS over Javascript ####
+## CSS over Javascript ##
 
 Despite the lack of compatibility with older browsers and a still limited library of animations, I believe CSS3 embodies the future of web design solutions.
 
@@ -26,7 +26,7 @@ Here are the main reasons:
 
 4. Some users prefer to **disable JavaScript** or rely on browsers which are unable to process it. Using CSS will grant your website to function regardless.
 
-#### My pure CSS gallery's structure ####
+## My pure CSS gallery's structure ##
 
 <img class="post-img" src="{{ site.baseurl }}/img/posts/2016-11-20-1.png" />
 

@@ -8,39 +8,39 @@ info: "Anatomy class with Eric Mannella"
 type: art
 gallery:
   - path: 01.jpg
-    description: "Copy from life, skeleton view 1"
+    description: "From life, skeleton view 1"
   - path: 02.jpg
-    description: "Copy from life, skeleton view 2 and 3"
+    description: "From life, skeleton view 2 and 3"
   - path: 03.jpg
     description: "My first 6-hours long life drawing"
   - path: 04.jpg
     description: "Another long pose"
   - path: 05.jpg
-    description: "Reconstructing the skeleton underneath"
+    description: "Reverse engineering - skeleton"
   - path: 06.jpg
     description: "First rendering on gray paper"
   - path: 07.jpg
-    description: "Reconstructing the muscle groups underneath"
+    description: "Reverse engineering - muscles"
   - path: 08.jpg
-    description: "Life drawing with a gesture variation from imagination"
+    description: "From life, with a gesture from imagination"
   - path: 09.jpg
     description: "...muscles again"
   - path: 10.jpg
-    description: "Life drawing rendered with etching"
+    description: "Rendered with etching"
   - path: 11.jpg
-    description: "Variant of the previous pose, created from imagination"
+    description: "Variant from imagination"
   - path: 12.jpg
-    description: "Life drawing with easel turned in the opposite direction of the model"
+    description: "Easel turned in the opposite direction of the model"
   - path: 13.jpg
     description: "Life drawing, reclined pose"
   - path: 14.jpg
     description: "Same pose, fast one from a different angle"
   - path: 15.jpg
-    description: "Final assignment part 1: constructing the skeleton"
+    description: "Final assignment part 1"
   - path: 16.jpg
-    description: "Final assignment part 2: constructing the muscles"
+    description: "Final assignment part 2"
   - path: 17.jpg
-    description: "Final assignment part 3: rendering"
+    description: "Final assignment part 3"
   - path: 18.jpg
     description: "Life drawing with digital painting"
   - path: 19.jpg

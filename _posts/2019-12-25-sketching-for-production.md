@@ -12,9 +12,9 @@ gallery:
   - path: 02.jpg
     description: "Analyzing a real life lego construction"
   - path: 03.jpg
-    description: "Transforming the lego construction in a building of given dimensions"
+    description: "Turning it into a building of given dimensions"
   - path: 04.jpg
-    description: "Different view of a building, keeping coherent proportions"
+    description: "Different view of the same building"
   - path: 05.jpg
     description: "Analyzing a real life appliance (iron)"
   - path: 06.jpg
@@ -22,15 +22,15 @@ gallery:
   - path: 07.jpg
     description: "Cast shadows nightmare"
   - path: 08.jpg
-    description: "Drawing and lighting an object based on a given shape"
+    description: "Drawing and lighting of a given shape"
   - path: 09.jpg
-    description: "Drawing the same scene from three different points of view - 1"
+    description: "Same scene from three different points of view - 1"
   - path: 10.jpg
-    description: "Drawing the same scene from three different points of view - 2"
+    description: "Same scene from three different points of view - 2"
   - path: 11.jpg
-    description: "Drawing the same scene from three different points of view - 3"
+    description: "Same scene from three different points of view - 3"
   - path: 12.jpg
-    description: "Drawing environments based on given measurements and descriptions"
+    description: "Drawing with given measurements and descriptions"
   - path: 13.jpg
     description: "Figuring out reflections"
 ---

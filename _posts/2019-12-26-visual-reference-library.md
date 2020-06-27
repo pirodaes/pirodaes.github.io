@@ -10,7 +10,7 @@ gallery:
   - path: 01.jpg
     description: "I chose the Westmount square buildings"
   - path: 02.jpg
-    description: "This was a photobashing done to better visualize my concept"
+    description: "Fast photobash of the idea"
   - path: 03.jpg
     description: "Research sketches"
   - path: 04.jpg
@@ -26,7 +26,7 @@ gallery:
   - path: 09.jpg
     description: "Final 3D render"
   - path: 10.jpg
-    description: "Final result after paintover and photobashing"
+    description: "Final result after paintover"
 ---
 
 During this class I started learning the new Blender 2.8. For our final assignment we chose an existing place in Montreal and transformed it in some post-apocalyptic fashion. The point of the exercise was to learn how to use a 3D base in our painting workflow.
