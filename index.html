@@ -5,17 +5,22 @@ title: "Projects"
 {% assign sorted = (site.categories.project | sort: 'date') | reverse %}
 
 <div class="presentation">
-  <p class="presentation-text">
-    Welcome! <br>
-    My name is Léonie Aonzo, I love color stains on my hands and telling stories through images. <br>
-    I am an illustrator and aspiring concept artist born in Genoa, Italy.<br/>
-    I am currently attending <a href="https://diploma.synstudio.ca/">Syn Studio's</a> concept art diploma program in Montreal.
-  </p>
-  <p class="presentation-links">
-    Concept art portfolio: <a href="https://www.artstation.com/leonieaonzo">www.artstation.com/leonieaonzo</a> <br>
-    Resume: <a href="{site.baseurl}/pdf/cv-leonie-aonzo.pdf">cv-leonie-aonzo.pdf</a><br>
-    Contact: leonie.aonzo@gmail.com
-  </p>
+  <div class="avatar">
+    <img src="{{site.baseurl}}/img/avatar.png" >
+  </div>
+  <div class="presentation-text">
+    <p class="presentation-bio">
+      Welcome! <br>
+      My name is Léonie Aonzo, I love color stains on my hands and telling stories through images. <br>
+      I am an illustrator and aspiring concept artist born in Genoa, Italy.<br/>
+      I am currently attending <a href="https://diploma.synstudio.ca/">Syn Studio's</a> concept art diploma program in Montreal.
+    </p>
+    <p class="presentation-links">
+      Concept art portfolio: <a href="https://www.artstation.com/leonieaonzo">www.artstation.com/leonieaonzo</a> <br>
+      Resume: <a href="{{site.baseurl}}/pdf/cv-leonie-aonzo.pdf">cv-leonie-aonzo.pdf</a><br>
+      Contact: leonie.aonzo@gmail.com
+    </p>
+  </div>
 </div>
 
 
@@ -34,7 +39,27 @@ title: "Projects"
             </div>
           </div>
           <div class="project-caption">
-            <h2>{{ project.title }}</h2>
+            <div class="project-type">
+              {% if project.type == "code" %}
+              <img src="{{site.baseurl}}/img/code.png">
+              {% endif %}
+              {% if project.type == "art" %}
+              <img src="{{site.baseurl}}/img/art.png">
+              {% endif %}
+              {% if project.type == "design" %}
+              <img src="{{site.baseurl}}/img/design.png">
+              {% endif %}
+              {% if project.type == "gamedev" %}
+              <img src="{{site.baseurl}}/img/gamedev.png">
+              {% endif %}
+              {% if project.type == "video" %}
+              <img src="{{site.baseurl}}/img/video.png">
+              {% endif %}
+              {% if project.type == "book" %}
+              <img src="{{site.baseurl}}/img/book.png">
+              {% endif %}
+            </div>
+              <h2>{{ project.title }}</h2>
           </div>
         </a>
         {% endfor %}

@@ -5,6 +5,7 @@ date:  18/09/2017
 categories: project
 post-header: 2017-09-18.png
 info: "First project with d3.js"
+type: code
 ---
 
 <div class="text">

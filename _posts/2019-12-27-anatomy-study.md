@@ -5,6 +5,7 @@ date:  27/12/2019
 categories: project
 post-header: 2019-12-27.jpg
 info: "Anatomy class with Eric Mannella"
+type: art
 gallery:
   - path: 01.jpg
     description: "Copy from life, skeleton view 1"

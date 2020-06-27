@@ -190,7 +190,8 @@ h4 {
 .presentation {
   width: 60%;
   margin: auto;
-  margin-top: 90px
+  margin-top: 90px;
+  display: flex
 }
 
 .presentation-links {
@@ -198,8 +199,16 @@ h4 {
   line-height: 25px;
 }
 
-.portrait {
-  width: 100px;
+.presentation-text {  
+}
+
+.avatar {
+  margin: 30px 20px;
+  width: 250px
+}
+
+.avatar img {
+  width: 100%
 }
 
 .year-list {  
@@ -247,6 +256,7 @@ h4 {
 .project-caption {
   height: 80px;
   padding: 10px;
+  display: flex
 }
 
 .project-caption h2 {
@@ -254,6 +264,17 @@ h4 {
   font-size: 18px;
   margin: 0;
   padding: 0;
+  width: 90%
+}
+
+.project-type {
+  height: 40px;
+}
+
+.project-type img {
+  width: 35px;
+  margin-top: -2px;
+  margin-right: 10px
 }
 
 .project-link:hover {
@@ -279,7 +300,7 @@ h4 {
 
 .post-headline {
   padding: 0 20px;
-  margin:  90px auto 20px;
+  margin:  90px auto 40px;
   text-align: center;
 }
 
@@ -292,7 +313,7 @@ h4 {
 }
 
 .post-img {
-  margin: 20px 0;
+  padding: 20px 0;
   margin-left: -9%;
   width: 118%;
   max-width: 1500px;
@@ -301,17 +322,20 @@ h4 {
 .post-img-side {
   width: 46%;
   max-width: 600px;
-  margin: 10px 0
+  margin: 20px 0 20px 40px;
+  float: right;
 }
 
 .date {
-  font-style: italic;
   opacity: .6;
   color: #fff;
+  font-size: 15px
 }
 
 .info {
   color: #f3c553;
+  font-style: italic;
+  font-size: 20px;
 }
 
 
@@ -373,7 +397,12 @@ padding: 0;
   position: relative;
   background-color: rgba(0,0,0,.7);
   width: 100%;
-  clear: both
+  clear: both;  
+}
+
+.footer p {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .social a {
@@ -400,7 +429,7 @@ padding: 0;
 
 
 @media (max-width:1000px) {
-  .post, .header-content, .post-headline, .post-list, .footer-text  {
+  .post, .header-content, .post-headline, .post-list, .footer-text, .presentation  {
     width: 90%
   }
 
@@ -422,6 +451,10 @@ padding: 0;
 }
 
 @media (max-width: 600px) {
+  
+  .avatar {
+    width: 0
+  }
 
  .site-title {
     width: 75px

@@ -5,6 +5,7 @@ date:  19/06/2019
 categories: project
 post-header: 2019-06-19.jpg
 info: "Works created for a CGMA online course"
+type: art
 gallery:
   - 1.jpg
   - 2.jpg

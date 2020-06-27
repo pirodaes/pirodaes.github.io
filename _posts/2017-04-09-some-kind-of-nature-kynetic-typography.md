@@ -5,6 +5,7 @@ date:   09/04/2017
 categories: project
 post-header: 2017-04-09.jpg
 info: "My first exploration of Adobe After Effects"
+type: video
 ---
 <div class="video">
   <iframe src="//www.youtube.com/embed/9IWBuDBsD8s" frameborder="0" allowfullscreen></iframe>

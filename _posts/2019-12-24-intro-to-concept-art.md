@@ -5,6 +5,7 @@ date:  24/12/2019
 categories: project
 post-header: 2019-12-24.jpg
 info: "Our first complex project"
+type: art
 gallery:
   - 01.jpg
   - 02.jpg

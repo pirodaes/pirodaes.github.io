@@ -5,6 +5,7 @@ date:  22/07/2018
 categories: project
 post-header: "2018-08-19.png"
 info: "Our entry for Ludum Dare 42, based on the theme 'running out of space'"
+type: gamedev
 facebook-img: "posts/2018-08-19-2.png"
 gallery:
   - path: 2018-08-19-1.jpg

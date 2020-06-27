@@ -5,6 +5,7 @@ date:  28/03/2019
 categories: project
 post-header: 2019-03-28.jpg
 info: "My first published book of illustrations!"
+type: book
 gallery:
   - 1.jpg
   - 2.jpg

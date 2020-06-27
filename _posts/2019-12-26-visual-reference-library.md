@@ -5,6 +5,7 @@ date:  26/12/2019
 categories: project
 post-header: 2019-12-26.jpg
 info: "Intro to Blender with Reda Amarti"
+type: art
 gallery:
   - path: 01.jpg
     description: "I chose the Westmount square buildings"

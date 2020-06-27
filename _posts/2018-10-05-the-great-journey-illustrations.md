@@ -5,6 +5,7 @@ date:  06/10/2018
 categories: project
 post-header: 2018-10-06.jpg
 info: "A proposal for Bologna Children's Book Fair 2019"
+type: art
 gallery:
   - 01.jpg
   - 02.jpg

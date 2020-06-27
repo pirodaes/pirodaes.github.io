@@ -5,6 +5,7 @@ date: 07/07/2017
 categories: project
 post-header: 2017-07-07.jpg
 info: "University project on the theme Necessary Utopias"
+type: video
 gallery:
   - 01.jpg
   - 02.jpg

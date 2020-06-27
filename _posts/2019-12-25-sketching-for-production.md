@@ -5,6 +5,7 @@ date:  25/12/2019
 categories: project
 post-header: 2019-12-25.jpg
 info: "Perspective class with Christian"
+type: art
 gallery:
   - path: 01.jpg
     description: "Real life sketch of my room"

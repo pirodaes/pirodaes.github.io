@@ -6,6 +6,7 @@ categories: project
 post-header: 2018-06-14.jpg
 info: "Series of illustrations projected in Livorno's harbor during the naming ceremony of Royal Viking's new cruise ship: Viking Orion"
 facebook-img: "posts/2018-06-14-3.jpg"
+type: art
 gallery:
   - path: 01.jpg
     description: "Creation of the Universe"

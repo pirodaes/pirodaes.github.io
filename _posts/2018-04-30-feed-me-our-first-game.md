@@ -5,6 +5,7 @@ date:  30/04/2018
 categories: project
 post-header: 2018-04-30.jpg
 info: "Post mortem of a horror / pet simulator videogame created during the 41st Ludum Dare"
+type: gamedev
 facebook-img: "posts/2018-04-30-05.png"
 ---
 

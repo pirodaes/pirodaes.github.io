@@ -5,6 +5,7 @@ date:  26/09/2017
 categories: project
 post-header: 2017-09-26.jpg
 info: "Narrating through Images"
+type: art
 gallery:
   - 01.jpg
   - 02.jpg

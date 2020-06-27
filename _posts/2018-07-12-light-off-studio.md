@@ -5,6 +5,7 @@ date:  12/07/2018
 categories: project
 post-header: 2018-07-12.jpg
 info: "Two logos and a cover for an Italian indie tem"
+type: design
 facebook-img: "posts/2018-07-12-3.jpg"
 
 ---

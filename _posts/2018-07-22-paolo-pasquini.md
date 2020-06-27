@@ -5,6 +5,7 @@ date:  22/07/2018
 categories: project
 post-header: "2018-07-22.jpg"
 info: "A commission for a professional page online"
+type: code
 facebook-img: "posts/2018-07-22.png"
 
 ---
