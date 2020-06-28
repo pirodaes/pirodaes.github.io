@@ -8,7 +8,7 @@ info: "Intro to Blender with Reda Amarti"
 type: art
 gallery:
   - path: 01.jpg
-    description: "I chose the Westmount square buildings"
+    description: "Westmount square buildings"
   - path: 02.jpg
     description: "Fast photobash of the idea"
   - path: 03.jpg

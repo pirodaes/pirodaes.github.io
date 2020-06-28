@@ -5,6 +5,7 @@ date:   20/11/2016
 categories: project
 post-header: 2016-11-20.png
 info: "What's behind this website's gallery"
+type: code
 ---
 
 Lately there has been more and more talking about the advantages of pure CSS web design solutions. Why is this?

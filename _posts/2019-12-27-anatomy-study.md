@@ -49,11 +49,9 @@ gallery:
     description: "Life drawing with digital painting"
 ---
 
-I loved this class, and I'm so happy that we are going to have it again next term. We worked on the full figure, with long 6-hours life drawing sessions every week. We learned how to construct a figure analytically, starting with blocks for the pelvis, rib cage and skull.
+I loved this class: we worked on the full figure, with long 6-hours life drawing sessions every week. We learned how to construct a figure analytically, starting with blocks for the pelvis, rib cage and skull.
 <br>
 Eric was a great teacher, he guided us through bone points and muscle groups, but it wasn't just theory. The point of his assignments was being able to internalize this knowledge and apply it from memory in new situations.
-<br>
-That's why the final work for this class was the construction of a pose from imagination, that we then had fun rendering.
 
 <div class="thumb-grid">
   {% for image in page.gallery %}
