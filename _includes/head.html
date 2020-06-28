@@ -27,6 +27,9 @@
   {% if page.facebook-img %}
     <meta property="og:image" content="{{site.baseurl}}/{{ page.facebook-img }}" />
     <meta name="twitter:image" content="{{site.baseurl}}/{{ page.facebook-img }}">
+  {% else %}
+    <meta property="og:image" content="{{site.baseurl}}/img/site-thumb.jpg" />
+    <meta name="twitter:image" content="{{site.baseurl}}/img/site-thumb.jpg">
   {% endif %}
 
   <meta name="google-site-verification" content="0WJGKdQwMPC1-4ZQkuGfoGAGB3uKpIC7OEGDdAFsm-A" />
