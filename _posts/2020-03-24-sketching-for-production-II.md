@@ -43,6 +43,8 @@ gallery:
     description: "Final priest design"
   - path: 18.jpg
     description: "Corrupted priest"
+  - path: 19.jpg
+    description: "An off-topic mech"
 ---
 
 This class was a lot of sketching sketching sketching! Véronique Meignaud taught us how to work fast with a flow of ideas, without falling in love with them.

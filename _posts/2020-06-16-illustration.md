@@ -1,41 +1,34 @@
 ---
 layout: post
-title:  "Syn Studio Term 1: Visual Reference Library"
-date:  26/12/2019
+title:  "Syn Studio Term 3: Illustration"
+date:  16/06/2020
 categories: project
-post-header: 2019-12-26.jpg
-info: "Intro to Blender with Reda Amarti"
+post-header: 2020-06-16.jpg
+facebook-img: 2020-06-16/05.jpg
+info: "Redesigning an old comic book cover"
 type: art
 gallery:
   - path: 01.jpg
-    description: "Westmount square buildings"
+    description: "The original book cover"
   - path: 02.jpg
-    description: "Fast photobash of the idea"
+    description: "First composition ideas"
   - path: 03.jpg
-    description: "Research sketches"
+    description: "Value sketches"
   - path: 04.jpg
-    description: "The buildings recreated in 3D"
+    description: "Color exploration"
   - path: 05.jpg
-    description: "What if the mushrooms glow?"
+    description: "Final"
   - path: 06.jpg
-    description: "Composition ideas"
-  - path: 07.jpg
-    description: "Composition ideas"
-  - path: 08.jpg
-    description: "Final composition idea"
-  - path: 09.jpg
-    description: "Final 3D render"
-  - path: 10.jpg
-    description: "Final result after paintover"
+    description: "Final with title"
 ---
 
-During this class I started learning the new Blender 2.8. For our final assignment we chose an existing place in Montreal and transformed it in some post-apocalyptic fashion. The point of the exercise was to learn how to use a 3D base in our painting workflow.
+Pierre Raveneau gave us golden advice while guiding us through the redesign of an old comic book cover. Very interesting exercise!
 
 <div class="thumb-grid">
   {% for image in page.gallery %}
   {% assign loopindex = forloop.index %}
         <a href="#id{{ loopindex }}" class= "thumb-link">
-          <div class="thumb" style="background-image: url('{{ site.baseurl }}/img/posts/2019-12-26/{{ image.path }}');">
+          <div class="thumb" style="background-image: url('{{ site.baseurl }}/img/posts/2020-06-16/{{ image.path }}');">
             <div class="caption">
               <h2> {{ image.description }} </h2>
             </div>
@@ -51,7 +44,7 @@ During this class I started learning the new Blender 2.8. For our final assignme
       <img src="{{ site.baseurl }}/img/closebtn.png" class="closebtn" />
     </a>
     <div class="gallery" >
-      <img src="{{ site.baseurl }}/img/posts/2019-12-26/{{ image.path }}" class="image" />
+      <img src="{{ site.baseurl }}/img/posts/2020-06-16/{{ image.path }}" class="image" />
     </div>
     <div class="image-info-post">
       <h2> {{ image.description }} </h2>
