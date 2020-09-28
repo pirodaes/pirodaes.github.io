@@ -4,6 +4,7 @@ title:  "Interlude"
 date:  28/09/2020
 categories: blog-post
 post-header: 2020-09-28.jpg
+facebook-img: 2020-09-28.jpg
 info: "Fragments of a lockdown diary"
 ---
 
